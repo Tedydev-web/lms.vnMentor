@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "lottie-web": "^5.12.2",
+    "particles.js": "^2.0.0"
+  }
+}

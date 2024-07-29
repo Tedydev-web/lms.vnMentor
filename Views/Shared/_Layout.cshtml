@@ -1,0 +1,121 @@
+﻿@using System.Threading
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Dạy lập trình tại Biên Hòa | VnMentor - Mentor chuyên
+        nghiệp</title>
+    <meta name="description"
+        content="Tìm mentor dạy lập trình tại Biên Hòa? VnMentor cung cấp khóa học lập trình chuyên nghiệp, dạy lập trình từ cơ bản đến nâng cao. Liên hệ ngay!">
+    <meta name="keywords" content="vnMentor">
+    <meta name="keywords" content="vnMentor biên hoà">
+    <meta name="keywords" content="dạy lập trình biên hoà">
+    <meta name="keywords" content="tin học văn phòng">
+    <meta name="keywords" content="Thiết kế website biên hoà">
+    <meta name="keywords" content="nhà trảo dạy lập trình">
+    <meta name="keywords" content="nhà trảo dạy lập trình biên hoà">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="30 days">
+    <meta name="language" content="vi_VN">
+    <meta name="rating" content="General">
+    <meta name="expires" content="never">
+    <meta name="og:title"
+        content="Tìm mentor dạy lập trình tại Biên Hòa? VnMentor cung cấp khóa học lập trình chuyên nghiệp.">
+    <meta name="og:description"
+        content="Tìm mentor dạy lập trình tại Biên Hòa? VnMentor cung cấp khóa học lập trình chuyên nghiệp, dạy lập trình từ cơ bản đến nâng cao.">
+    <meta name="og:image"
+        content="https://res.cloudinary.com/dfzhyunci/image/upload/vnMentor/logo/logo-vnmentor.png">
+    <meta name="og:url" content="https://vnmentor.vn/">
+    <meta name="og:type" content="website">
+    <meta name="og:site_name" content="VnMentor">
+    <meta name="og:locale" content="vi_VN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title"
+        content="Tìm mentor dạy lập trình tại Biên Hòa? VnMentor cung cấp khóa học lập trình chuyên nghiệp.">
+    <meta name="twitter:description"
+        content="Tìm mentor dạy lập trình tại Biên Hòa? VnMentor cung cấp khóa học lập trình chuyên nghiệp, dạy lập trình từ cơ bản đến nâng cao.">
+    <meta name="twitter:image"
+        content="https://res.cloudinary.com/dfzhyunci/image/upload/vnMentor/logo/logo-vnmentor.png">
+    <meta name="twitter:site" content="@Url.Content("~/")">
+    <meta name="twitter:creator" content="@Url.Content("~/")">
+    <meta name="twitter:domain" content="@Url.Content("~/")">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style"
+        content="default">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#343a40">
+    <meta name="apple-mobile-web-app-title" content="VnMentor">
+    <meta name="msapplication-TileImage"
+        content="https://res.cloudinary.com/dfzhyunci/image/upload/vnMentor/logo/logo-vnmentor.png">
+    <meta name="msapplication-TileColor" content="#343a40">
+    <meta name="application-name" content="VnMentor">
+    <meta name="author" content="vnMentor">
+    <link rel="icon" type="image/x-icon"
+        href="https://res.cloudinary.com/dfzhyunci/image/upload/vnMentor/logo/favicon.jpg">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+        crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link id="bootstrap-ltr" rel="stylesheet"
+        href="~/bootstrap.min.css" />
+    <link id="bootstrap-rtl" rel="stylesheet"
+        href="~/bootstrap.rtl.min.css.css" />
+    <link rel="stylesheet" href="~/all.min.css" />
+    <link rel="stylesheet" href="~/style_footer.css" />
+    <link rel="stylesheet" href="~/style.css?v=1.1.8" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#topright-navbar">
+
+    <!-- ================= Top Navigation Bar ================= -->
+
+
+    <!-- ================= Offcanvas Left Mobile Navigation ================= -->
+
+    <main class="position-relative">
+        @RenderBody()
+    </main>
+
+    @* @await Html.PartialAsync("~/Views/Shared/_FooterBeforeLogin.cshtml") *@
+
+    <!-- Scroll to top button -->
+    <a class="scroll-top rounded-circle position-fixed bg-primarycolor color-white hover-color-white hover-moveup hover-boxshadow d-flex align-items-center justify-content-center active"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <script src="~/Scripts/jquery-3.6.0.js"></script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/main.js?v=1.1.4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="~/Scripts/particles/particles.min.js"></script>
+
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    @RenderSection("scripts", required: false)
+    <script>
+        var lang = '@(Thread.CurrentThread.CurrentCulture.ToString())';
+        var rtlCss = document.querySelector("#bootstrap-rtl");
+        var ltrCss = document.querySelector("#bootstrap-ltr");
+        if (lang == "ar") {
+            document.querySelector("html").setAttribute("lang", "ar");
+            document.querySelector("html").setAttribute("dir", "rtl");
+            rtlCss.disabled = false;
+            ltrCss.disabled = true;
+        } else {
+            rtlCss.disabled = true;
+            ltrCss.disabled = false;
+            document.querySelector("html").removeAttribute("lang", "ar");
+            document.querySelector("html").removeAttribute("dir", "rtl");
+        }
+    </script>
+</body>
+
+</html>

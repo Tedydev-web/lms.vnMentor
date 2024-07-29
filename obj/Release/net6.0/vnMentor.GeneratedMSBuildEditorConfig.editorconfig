@@ -1,0 +1,355 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = vnMentor
+build_property.RootNamespace = vnMentor
+build_property.ProjectDir = /Users/tedydev/Workhome/vnMentor/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/tedydev/Workhome/vnMentor
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9DaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Db25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Account/EditMyProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9FZGl0TXlQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Account/MyProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9NeVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Answer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5zd2VyL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/ClassHub/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhc3NIdWIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/ClassHub/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhc3NIdWIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/ClassHub/ViewRecord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhc3NIdWIvVmlld1JlY29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/ClassHub/_MainList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhc3NIdWIvX01haW5MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/ClassHub/_StudentInClassList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhc3NIdWIvX1N0dWRlbnRJbkNsYXNzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Exam/AddQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhhbS9BZGRRdWVzdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Exam/AllocateMarks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhhbS9BbGxvY2F0ZU1hcmtzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Exam/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhhbS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Exam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhhbS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Exam/SortQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhhbS9Tb3J0UXVlc3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Exam/ViewRecord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhhbS9WaWV3UmVjb3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Exam/_Buttons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhhbS9fQnV0dG9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Exam/_ExamStatusBadge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhhbS9fRXhhbVN0YXR1c0JhZGdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Exam/_MainList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhhbS9fTWFpbkxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Exam/_QuestionList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhhbS9fUXVlc3Rpb25MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Exam/_Tabs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhhbS9fVGFicy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/LoginHistory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW5IaXN0b3J5L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/LoginHistory/_MainList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW5IaXN0b3J5L19NYWluTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Question/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVlc3Rpb24vRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Question/Import.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVlc3Rpb24vSW1wb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Question/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVlc3Rpb24vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Question/ViewRecord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVlc3Rpb24vVmlld1JlY29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Question/_MainList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVlc3Rpb24vX01haW5MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Result/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdWx0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Result/StudentQuestionAnswer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdWx0L1N0dWRlbnRRdWVzdGlvbkFuc3dlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Result/StudentResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdWx0L1N0dWRlbnRSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Result/_MainList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdWx0L19NYWluTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Result/_ResultsByExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdWx0L19SZXN1bHRzQnlFeGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Shared/ConfigurationError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbmZpZ3VyYXRpb25FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Shared/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0xvY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Shared/_ConfirmationPrompt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Db25maXJtYXRpb25Qcm9tcHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Shared/_LanguageChoices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYW5ndWFnZUNob2ljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Shared/_LayoutAfterLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRBZnRlckxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Shared/_LeftSidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MZWZ0U2lkZWJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Shared/_TableLengthDropDown.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19UYWJsZUxlbmd0aERyb3BEb3duLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/StudentExam/ConfirmTakeExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudEV4YW0vQ29uZmlybVRha2VFeGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/StudentExam/CurrentExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudEV4YW0vQ3VycmVudEV4YW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/StudentExam/ExamEnded.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudEV4YW0vRXhhbUVuZGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/StudentExam/PastExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudEV4YW0vUGFzdEV4YW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/StudentExam/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudEV4YW0vUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/StudentExam/TakeExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudEV4YW0vVGFrZUV4YW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/StudentExam/TimesUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudEV4YW0vVGltZXNVcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/StudentExam/UpcomingExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudEV4YW0vVXBjb21pbmdFeGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/StudentExam/_MainList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudEV4YW0vX01haW5MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Subject/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3ViamVjdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Subject/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3ViamVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Subject/ViewRecord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3ViamVjdC9WaWV3UmVjb3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Subject/_MainList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3ViamVjdC9fTWFpbkxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/User/AdminChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9BZG1pbkNoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/User/Import.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/User/ViewRecord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9WaWV3UmVjb3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/User/_EditProfileInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9fRWRpdFByb2ZpbGVJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/User/_MainList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9fTWFpbkxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/User/_ProfileInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9fUHJvZmlsZUluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/UserAttachment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlckF0dGFjaG1lbnQvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/UserAttachment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlckF0dGFjaG1lbnQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/UserAttachment/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlckF0dGFjaG1lbnQvVXBsb2FkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/UserAttachment/_MainList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlckF0dGFjaG1lbnQvX01haW5MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/UserAttachmentType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlckF0dGFjaG1lbnRUeXBlL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/UserAttachmentType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlckF0dGFjaG1lbnRUeXBlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/UserAttachmentType/ViewRecord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlckF0dGFjaG1lbnRUeXBlL1ZpZXdSZWNvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/UserAttachmentType/_MainList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlckF0dGFjaG1lbnRUeXBlL19NYWluTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/UserStatus/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclN0YXR1cy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/UserStatus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclN0YXR1cy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/UserStatus/ViewRecord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclN0YXR1cy9WaWV3UmVjb3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/UserStatus/_MainList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclN0YXR1cy9fTWFpbkxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tedydev/Workhome/vnMentor/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-w8ossyzt6g
