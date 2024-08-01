@@ -1805,3 +1805,32 @@ ul.pagination .page-link {
         height: 38px;
         background-color: #cecece;
     }
+
+
+    /* Add focus styles for form elements */
+.form-control:focus, .btn:focus {
+    outline: 2px solid #e87900; /* Example focus style */
+    outline-offset: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .form-wrapper {
+        padding: 1rem;
+        margin-bottom: 50px; /* Adjusted margin for smaller screens */
+    }
+    .logo-img {
+        width: 90%; /* Make logo responsive */
+    }
+}
+
+/* Make sure images are responsive */
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+

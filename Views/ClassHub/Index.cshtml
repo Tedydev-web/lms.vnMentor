@@ -1,11 +1,18 @@
 ﻿@using vnMentor.Resources
 @{
     ViewBag.Module = Resource.Class;
-    ViewBag.Title = ViewBag.Module + " " + Resource.Management;
+    var lang = (string)TempData["lang"] ?? "vi";
+    if (lang == "vi")
+    {
+        ViewBag.Title = Resource.Management + " " + ViewBag.Module;
+    }
+    else
+    {
+        ViewBag.Title = ViewBag.Module + " " + Resource.Management;
+    }
     Layout = "~/Views/Shared/_LayoutAfterLogin.cshtml";
     ViewBag.PartialViewWrapper = "classhub-partialview";
     ViewBag.TableIdPrefix = "classhub";
-    var lang = (string)TempData["lang"]?? "vi";
 }
 
 <div class="row">

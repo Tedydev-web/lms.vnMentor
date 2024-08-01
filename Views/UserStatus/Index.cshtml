@@ -3,11 +3,18 @@
 
 @{
     ViewBag.Module = Resource.UserStatus;
-    ViewBag.Title = Resource.UserStatus + " " + Resource.Management;
+    var lang = (string)TempData["lang"] ?? "vi";
+    if (lang == "vi")
+    {
+        ViewBag.Title = Resource.Management + " " + ViewBag.Module;
+    }
+    else
+    {
+        ViewBag.Title = ViewBag.Module + " " + Resource.Management;
+    }
     Layout = "~/Views/Shared/_LayoutAfterLogin.cshtml";
     ViewBag.TableIdPrefix = "userstatus";
     ViewBag.PartialViewWrapper = "userstatus-partialview";
-    var lang = (string)TempData["lang"]?? "vi";
 }
 
 <div class="row">
