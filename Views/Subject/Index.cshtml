@@ -6,12 +6,20 @@
     Layout = "~/Views/Shared/_LayoutAfterLogin.cshtml";
     ViewBag.TableIdPrefix = "subject";
     ViewBag.PartialViewWrapper = "subject-partialview";
+    var lang = (string)TempData["lang"]?? "vi";
 }
 
 <div class="row">
     <div class="col-12">
         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-            <h4 class="pagetitle mb-sm-0 fw600">@ViewBag.Module @Resource.Management</h4>
+            @if (lang == "vi")
+            {
+                <h4 class="pagetitle mb-sm-0 fw600">@Resource.Management @ViewBag.Module</h4>
+            }
+            else
+            {
+                <h4 class="pagetitle mb-sm-0 fw600">@ViewBag.Module @Resource.Management</h4>
+            }
         </div>
     </div>
 </div>
@@ -20,8 +28,10 @@
     <div class="bg-white rounded p-3 shadow position-relative h-100 w-100">
         <div class="pb-2">
             <a class="btn form-btn btn-primary hover-boxshadow hover-moveup hover-bg-primarycolor" href="@Url.Action("edit")"><i class="fa-solid fa-plus pe-1"></i> @Resource.AddNewRecord</a>
-            <span onclick="exportToExcel('@ViewBag.TableIdPrefix', '@Resource.TableIsStillLoading')" data-bs-toggle="tooltip" data-bs-placement="right" title="@Resource.ExportToExcelNote" class="btn form-btn btn-secondary hover-boxshadow cursor-pointer hover-moveup"><i class="fa-solid fa-file-excel pe-1"></i> @Resource.ExporttoExcel</span>
-            <span onclick="exportToPdf('@ViewBag.TableIdPrefix', '@Resource.TableIsStillLoading')" data-bs-toggle="tooltip" data-bs-placement="right" title="@Resource.ExportToPDFNote" class="btn form-btn btn-secondary hover-boxshadow cursor-pointer hover-moveup"><i class="fa-solid fa-file-pdf pe-1"></i> @Resource.ExporttoPdf</span>
+            <span onclick="exportToExcel('@ViewBag.TableIdPrefix', '@Resource.TableIsStillLoading')" data-bs-toggle="tooltip" data-bs-placement="right" title="@Resource.ExportToExcelNote"
+                class="btn form-btn btn-secondary hover-boxshadow cursor-pointer hover-moveup"><i class="fa-solid fa-file-excel pe-1"></i> @Resource.ExporttoExcel</span>
+            <span onclick="exportToPdf('@ViewBag.TableIdPrefix', '@Resource.TableIsStillLoading')" data-bs-toggle="tooltip" data-bs-placement="right" title="@Resource.ExportToPDFNote"
+                class="btn form-btn btn-secondary hover-boxshadow cursor-pointer hover-moveup"><i class="fa-solid fa-file-pdf pe-1"></i> @Resource.ExporttoPdf</span>
         </div>
         <div class="spinner-container d-none">
             <div class="spinner d-flex justify-content-center align-items-center text-center color-primarycolor py-5">
@@ -35,7 +45,9 @@
             <div class="table-responsive mb-5">
                 <table class="table table-hover align-middle mb-0">
                     <thead class="table-light">
-                        <tr><th class="thead"></th></tr>
+                        <tr>
+                            <th class="thead"></th>
+                        </tr>
                     </thead>
                     <tbody></tbody>
                 </table>
@@ -49,7 +61,7 @@
     </div>
 </section>
 
-@section scripts{
+@section scripts {
     <script>
         var tableIdPrefix = "@ViewBag.TableIdPrefix";
         var fileName = "@Resource.Subject"; //the file name for excel and pdf file (Export to excel, pdf feature)

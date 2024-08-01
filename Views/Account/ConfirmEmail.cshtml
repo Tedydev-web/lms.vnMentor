@@ -3,9 +3,51 @@
     ViewBag.Title = Resource.ConfirmEmail;
 }
 
-<h2>@ViewBag.Title.</h2>
-<div>
-    <p>
-        Thank you for confirming your email. Please @Html.ActionLink(Resource.ClickHereToLogin, "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
-    </p>
+<style>
+    <style>
+    .container {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .confirmation-box {
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .confirmation-icon {
+        font-size: 4rem;
+        color: #28a745;
+    }
+
+    .confirmation-message {
+        font-size: 1.25rem;
+        color: #343a40;
+        margin-bottom: 1rem;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+    }
+</style>
+
+</style>
+
+<div class="container mt-5">
+    <div class="text-center">
+        <h2 class="mb-4">@ViewBag.Title</h2>
+        <div class="confirmation-box">
+            <i class="fa-solid fa-check-circle confirmation-icon"></i>
+            <p class="confirmation-message">@Resource.ThankConfirmEmail</p>
+            <p>@Html.ActionLink(Resource.ClickHereToLogin, "Login", "Account", routeValues: null, htmlAttributes: new { @class = "btn btn-primary" })</p>
+        </div>
+    </div>
 </div>

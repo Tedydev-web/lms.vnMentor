@@ -7,12 +7,20 @@
     Layout = "~/Views/Shared/_LayoutAfterLogin.cshtml";
     ViewBag.PartialViewWrapper = "exam-partialview";
     ViewBag.TableIdPrefix = "exam";
+    var lang = (string)TempData["lang"]?? "vi";
 }
 
 <div class="row">
     <div class="col-12">
         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-            <h4 class="pagetitle mb-sm-0 fw600">@ViewBag.Module @Resource.Management</h4>
+            @if (lang == "vi")
+            {
+                <h4 class="pagetitle mb-sm-0 fw600">@Resource.Management @ViewBag.Module</h4>
+            }
+            else
+            {
+                <h4 class="pagetitle mb-sm-0 fw600">@ViewBag.Module @Resource.Management</h4>
+            }
         </div>
     </div>
 </div>

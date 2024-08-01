@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="VerifyEmail" xml:space="preserve">
+    <value>يرجى التحقق من بريدك الإلكتروني للمتابعة في تسجيل الدخول.</value> <!-- ar -->
+</data>
+  <data name="ExitThisExam" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد الخروج من هذا الامتحان؟</value>
+</data>
+<data name="ExitNow" xml:space="preserve">
+    <value>نعم، الخروج الآن</value>
+</data>
+<data name="NoCancel" xml:space="preserve">
+    <value>لا، إلغاء</value>
+</data>
   <data name="AcceptedAnswers" xml:space="preserve">
     <value>الإجابات المقبولة</value>
   </data>
@@ -849,6 +861,21 @@
   <data name="Register" xml:space="preserve">
     <value>يسجل</value>
   </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>لا تملك حسابًا؟</value> <!-- ar -->
+</data>
+<data name="AlreadyHaveAccount" xml:space="preserve">
+    <value>هل لديك حساب بالفعل؟</value> <!-- ar -->
+</data>
+<data name="ThankConfirmEmail" xml:space="preserve">
+    <value>شكراً لتأكيد بريدك الإلكتروني. يرجى</value> <!-- ar -->
+</data>
+<data name="RememberPassword" xml:space="preserve">
+    <value>هل تذكر كلمة المرور؟</value> <!-- ar -->
+</data>
+<data name="RegistrationSuccessful" xml:space="preserve">
+    <value>التسجيل ناجح! يرجى التحقق من بريدك الإلكتروني والنقر على الرابط لتأكيد عنوان بريدك الإلكتروني قبل تسجيل الدخول.</value> <!-- ar -->
+</data>
   <data name="RegisteredUserStatusCannotBeDeletedOrEdited" xml:space="preserve">
     <value>حالة المستخدم المسجل لا يمكن حذفها أو تحريرها. لأنها الحالة الافتراضية لتعيينها للمستخدم المسجل.</value>
   </data>

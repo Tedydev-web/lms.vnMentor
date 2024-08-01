@@ -12,6 +12,19 @@
     }
     Layout = "~/Views/Shared/_LayoutAfterLogin.cshtml";
 }
+<style>
+    .input-group {
+        display: flex;
+        align-items: center;
+    }
+
+    .input-group-text {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        font-size: 1.2rem;
+    }
+</style>
 
 <div class="row">
     <div class="col-12">
@@ -36,38 +49,42 @@
     @Html.HiddenFor(m => m.Id)
     @Html.HiddenFor(m => m.AspNetUserId)
     <section class="section mt-3">
-        <div class="bg-white rounded p-3 p-lg-4 p-xl-5 shadow mb-4">
-            <h2 class="fs-20 fw600 mb-4">@Resource.SystemInformation</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="mb-3 text-break">
-                        <div class="form-group">
-                            @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "form-label required fw600" })
-                            @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
-                            @Html.ValidationMessageFor(model => model.Username, "", new { @class = "invalid-message" })
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="mb-3 text-break">
-                        <div class="form-group">
-                            @Html.LabelFor(model => model.EmailAddress, htmlAttributes: new { @class = "form-label required fw600" })
-                            @Html.EditorFor(model => model.EmailAddress, new { htmlAttributes = new { @class = "form-control" } })
-                            @Html.ValidationMessageFor(model => model.EmailAddress, "", new { @class = "invalid-message" })
-                        </div>
+    <div class="bg-white rounded p-3 p-lg-4 p-xl-5 shadow mb-4">
+        <h2 class="fs-20 fw600 mb-4">@Resource.SystemInformation</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 text-break">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "form-label required fw600" })
+                        @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Username, "", new { @class = "invalid-message" })
                     </div>
                 </div>
             </div>
-            @if (Model.Id == null)
+            <div class="col-md-6">
+                <div class="mb-3 text-break">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EmailAddress, htmlAttributes: new { @class = "form-label required fw600" })
+                        @Html.EditorFor(model => model.EmailAddress, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.EmailAddress, "", new { @class = "invalid-message" })
+                    </div>
+                </div>
+            </div>
+        </div>
+        @if (Model.Id == null)
             {
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-3 text-break">
                             <div class="form-group">
                                 @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "form-label required fw600" })
-                                <i class="fa-solid fa-circle-info text-info" data-bs-toggle="tooltip" data-bs-placement="right"
-                           title="@Resource.PasswordRequirementText"></i>
-                                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
+                                <i class="fa-solid fa-circle-info text-info" data-bs-toggle="tooltip" data-bs-placement="right" title="@Resource.PasswordRequirementText"></i>
+                                <div class="input-group">
+                                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control password-input", @type = "password" } })
+                                    <span class="input-group-text" id="togglePassword" title="Show Password">
+                                        <i class="fa-solid fa-eye-slash"></i> <!-- Font Awesome eye-slash icon -->
+                                    </span>
+                                </div>
                                 @Html.ValidationMessageFor(model => model.Password, "", new { @class = "invalid-message" })
                             </div>
                         </div>
@@ -86,7 +103,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="mb-3 text-break">
-                        @Html.LabelFor(model => model.UserStatusId, htmlAttributes: new { @class = "form-label required fw600" }) <a class="color-secondarycolor fs-12 hover-color-primarycolor" href="@Url.Action("edit","userstatus")" target="_blank">Create New</a>
+                        @Html.LabelFor(model => model.UserStatusId, htmlAttributes: new { @class = "form-label required fw600" }) <a class="color-secondarycolor fs-12 hover-color-primarycolor"
+                            href="@Url.Action("edit","userstatus")" target="_blank">Create New</a>
                         @CustomHelper.CustomDropDownList("UserStatusId", Model.UserStatusSelectList)
                         @Html.ValidationMessageFor(model => model.UserStatusId, "", new { @class = "invalid-message" })
                     </div>
@@ -95,7 +113,7 @@
                     <div class="mb-3 text-break">
                         <div class="form-group">
                             @Html.LabelFor(model => model.UserRoleName, htmlAttributes: new { @class = "form-label required fw600" })
-                            @CustomHelper.CustomDropDownList("UserRoleName", Model.UserRoleSelectList,null,"showHideClass")
+                            @CustomHelper.CustomDropDownList("UserRoleName", Model.UserRoleSelectList, null, "showHideClass")
                             @*<div id="UserRoleIdList-wrapper">@CustomHelper.CustomMultiSelect("UserRoleIdList", Model.UserRoleSelectList)</div>*@
                             @Html.ValidationMessageFor(model => model.UserRoleName, "", new { @class = "invalid-message" })
                         </div>
@@ -105,7 +123,8 @@
             <div class="row">
                 <div id="class-wrapper" class="col-md-6">
                     <div class="mb-3 text-break">
-                        @Html.LabelFor(model => model.ClassIdList, htmlAttributes: new { @class = "form-label required fw600" }) <a class="color-secondarycolor fs-12 hover-color-primarycolor" href="@Url.Action("edit","classhub")" target="_blank">Create New</a>
+                        @Html.LabelFor(model => model.ClassIdList, htmlAttributes: new { @class = "form-label required fw600" }) <a class="color-secondarycolor fs-12 hover-color-primarycolor"
+                            href="@Url.Action("edit","classhub")" target="_blank">Create New</a>
                         @CustomHelper.CustomMultiSelect("ClassIdList", Model.ClassSelectList)
                         @Html.ValidationMessageFor(model => model.ClassIdList, "", new { @class = "invalid-message" })
                     </div>
@@ -122,7 +141,7 @@
     </section>
 }
 
-@section scripts{
+@section scripts {
     <script>
         const classWrapper = document.getElementById("class-wrapper");
         $(document).ready(function () {
@@ -141,4 +160,25 @@
             }
         }
     </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const passwordInputs = document.querySelectorAll('.password-input');
+            const togglePasswordButtons = document.querySelectorAll('[id^=togglePassword]');
+
+            togglePasswordButtons.forEach((togglePassword, index) => {
+                const passwordInput = passwordInputs[index];
+                const eyeIcon = togglePassword.querySelector('i');
+
+                togglePassword.addEventListener('click', function () {
+                    const isPasswordVisible = passwordInput.type === 'text';
+
+                    passwordInput.type = isPasswordVisible ? 'password' : 'text';
+                    eyeIcon.classList.toggle('fa-eye-slash', isPasswordVisible);
+                    eyeIcon.classList.toggle('fa-eye', !isPasswordVisible);
+                });
+            });
+        });
+    </script>
+
 }

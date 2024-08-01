@@ -117,122 +117,135 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="VerifyEmail" xml:space="preserve">
+    <value>Vui lòng xác minh email của bạn để tiếp tục đăng nhập.</value> <!-- vi -->
+</data>
+  <data name="ExitThisExam" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn thoát khỏi kỳ thi này?</value>
+  </data>
+    <data name="ExitNow" xml:space="preserve">
+    <value>Đồng ý, Thoát ngay bây giờ</value>
+  </data>
+    <data name="NoCancel" xml:space="preserve">
+    <value>Không, Huỷ thoát</value>
+  </data>
 <data name="AcceptedAnswers" xml:space="preserve">
-    <value>Đáp Án Đúng</value>
+    <value>Các câu trả lời đã chấp nhận</value>
 </data>
 <data name="Actions" xml:space="preserve">
-    <value>Hành Động</value>
+    <value>Hành động</value>
 </data>
 <data name="ActiveInactive" xml:space="preserve">
-    <value>Hoạt Động/Không Hoạt Động</value>
+    <value>Hoạt động/Không hoạt động</value>
 </data>
 <data name="Add" xml:space="preserve">
     <value>Thêm</value>
 </data>
 <data name="AddAnotherQuestion" xml:space="preserve">
-    <value>Thêm Câu Hỏi Khác</value>
+    <value>Thêm câu hỏi khác</value>
 </data>
 <data name="AddNewRecord" xml:space="preserve">
-    <value>Thêm Bản Ghi Mới</value>
+    <value>Thêm bản ghi mới</value>
 </data>
 <data name="AddQuestionForExam" xml:space="preserve">
-    <value>Thêm Câu Hỏi Cho Kỳ Thi</value>
+    <value>Thêm câu hỏi cho kỳ thi</value>
 </data>
 <data name="AddressInformation" xml:space="preserve">
-    <value>Thông Tin Địa Chỉ</value>
+    <value>Thông tin địa chỉ</value>
 </data>
 <data name="AddUser" xml:space="preserve">
-    <value>Thêm Người Dùng</value>
+    <value>Thêm người dùng</value>
 </data>
 <data name="AllocateMarks" xml:space="preserve">
-    <value>Phân Bổ Điểm</value>
+    <value>Phân bổ điểm</value>
 </data>
 <data name="AllocateMarksForEachQuestion" xml:space="preserve">
     <value>Phân bổ điểm cho từng câu hỏi trong kỳ thi.</value>
 </data>
 <data name="AllocateMarksNote" xml:space="preserve">
-    <value>Ghi chú: Nếu đã có sinh viên tham gia kỳ thi, việc thay đổi điểm ở đây sẽ tính lại điểm của họ.</value>
+    <value>Lưu ý: Nếu đã có học sinh thi, thay đổi điểm ở đây sẽ tính lại điểm của họ.</value>
 </data>
 <data name="alreadyexists" xml:space="preserve">
     <value>đã tồn tại.</value>
 </data>
 <data name="AnAccount" xml:space="preserve">
-    <value>Một Tài Khoản</value>
+    <value>Một tài khoản</value>
 </data>
 <data name="Anerroroccurred" xml:space="preserve">
     <value>Có lỗi xảy ra trong quá trình xử lý yêu cầu của bạn.</value>
 </data>
 <data name="Answer" xml:space="preserve">
-    <value>Đáp Án</value>
+    <value>Câu trả lời</value>
 </data>
 <data name="AnswerCasesInfo" xml:space="preserve">
-    <value>Việc viết hoa hoặc thường không ảnh hưởng đến việc so khớp giữa câu trả lời của sinh viên và đáp án được cung cấp.</value>
+    <value>Viết hoa hoặc viết thường không quan trọng, nó sẽ không ảnh hưởng đến việc khớp câu trả lời của học sinh và câu trả lời đã cung cấp.</value>
 </data>
 <data name="AnsweredCorrect" xml:space="preserve">
-    <value>Đã Trả Lời Đúng</value>
+    <value>Trả lời đúng</value>
 </data>
 <data name="AnswerOption" xml:space="preserve">
-    <value>Chọn Đáp Án</value>
+    <value>Tùy chọn câu trả lời</value>
 </data>
 <data name="AnswerSaved" xml:space="preserve">
-    <value>Lưu Đáp Án?</value>
+    <value>Đã lưu câu trả lời?</value>
 </data>
 <data name="AreyouSureToDeleteThisRecord" xml:space="preserve">
-    <value>Bạn Chắc Chắn Muốn Xóa?</value>
+    <value>Bạn có chắc chắn muốn xóa điều này?</value>
 </data>
 <data name="ArrangeQuestionOrder" xml:space="preserve">
-    <value>Sắp Xếp Thứ Tự Câu Hỏi</value>
+    <value>Sắp xếp thứ tự câu hỏi</value>
 </data>
 <data name="AttachmentType" xml:space="preserve">
-    <value>Loại Đính Kèm</value>
+    <value>Loại tệp đính kèm</value>
 </data>
 <data name="Back" xml:space="preserve">
-    <value>Quay Lại</value>
+    <value>Trở lại</value>
 </data>
 <data name="BackToList" xml:space="preserve">
-    <value>Quay Lại Danh Sách</value>
+    <value>Trở lại danh sách</value>
 </data>
 <data name="ByDefaultSystemAdminCanManageWhileNormalUserCant" xml:space="preserve">
-    <value>Theo mặc định, quản trị hệ thống có thể quản lý mô-đun này, trong khi người dùng bình thường không có quyền xem/thêm/sửa/xóa mô-đun này.</value>
+    <value>Mặc định, quản trị viên hệ thống có thể quản lý mô-đun này, trong khi người dùng thông thường không có quyền xem/thêm/sửa/xóa mô-đun này.</value>
 </data>
 <data name="CannotAddNewQuestionButCanExclude" xml:space="preserve">
-    <value>Các sinh viên đã tham gia kỳ thi. Bạn không thể thêm câu hỏi mới vào kỳ thi. Bạn chỉ có thể loại trừ các câu hỏi khỏi kỳ thi nếu câu trả lời cho một câu hỏi không chính xác. Hệ thống sẽ tính lại điểm của sinh viên sau khi bạn loại trừ câu hỏi.</value>
+    <value>Học sinh đã thi kỳ thi. Bạn không thể thêm câu hỏi mới vào kỳ thi. Bạn chỉ có thể loại trừ các câu hỏi khỏi kỳ thi nếu câu trả lời của câu hỏi đó không chính xác. Hệ thống sẽ chấm điểm lại cho học sinh sau khi bạn loại trừ câu hỏi.</value>
 </data>
 <data name="CannotChooseEmptyAnswerAsCorrectAnswer" xml:space="preserve">
-    <value>Không thể chọn đáp án trống làm đáp án đúng.</value>
+    <value>Không thể chọn câu trả lời trống làm câu trả lời đúng.</value>
 </data>
 <data name="CannotEditQuestion" xml:space="preserve">
-    <value>Đã có sinh viên tham gia thi. Bạn không thể thêm hoặc xóa câu hỏi trong khi sinh viên đang thi.</value>
+    <value>Đã có học sinh thi. Bạn không thể thêm hoặc xóa câu hỏi trong khi học sinh đang thi.</value>
 </data>
 <data name="CannotReturnToPreviousQuestion" xml:space="preserve">
-    <value>Cảnh báo! Vui lòng lưu câu trả lời của bạn trước khi nhấn nút "Tiếp" vì sau khi nhấn nút này, bạn sẽ không thể quay lại câu hỏi trước đó.</value>
+    <value>Cảnh báo! Vui lòng lưu câu trả lời của bạn trước khi nhấp vào nút "Tiếp theo" vì bạn không thể quay lại câu hỏi trước sau khi nhấp vào nút này.</value>
 </data>
 <data name="CannotSaveExamTooltip" xml:space="preserve">
-    <value>Kỳ thi đã bắt đầu. Bạn chỉ có thể thay đổi thông tin sau khi kỳ thi kết thúc.</value>
+    <value>Kỳ thi đã bắt đầu. Bạn chỉ có thể thay đổi chi tiết sau khi kỳ thi kết thúc.</value>
 </data>
 <data name="ChangeAnswerNote" xml:space="preserve">
-    <value>Nếu đã có sinh viên tham gia kỳ thi chứa câu hỏi này và bạn thay đổi văn bản câu trả lời hoặc thay đổi đáp án đúng bây giờ, kết quả của họ sẽ được tính lại. Điều này giải quyết vấn đề của giáo viên chọn sai đáp án.</value>
+    <value>Nếu đã có học sinh thi và bạn thay đổi văn bản câu trả lời hoặc thay đổi câu trả lời đúng bây giờ, kết quả của họ sẽ được tính lại. Điều này nhằm giải quyết vấn đề giáo viên chọn sai câu trả lời.</value>
 </data>
 <data name="ChangePassword" xml:space="preserve">
-    <value>Đổi Mật Khẩu</value>
+    <value>Đổi mật khẩu</value>
 </data>
 <data name="ChangePasswordForUser" xml:space="preserve">
-    <value>Đổi Mật Khẩu Cho Người Dùng</value>
+    <value>Đổi mật khẩu cho người dùng</value>
 </data>
-<data name="CheckTheRadioButtonForCorrectAnswer" xml:space="preserve">
-    <value>Chọn nút radio để đặt đáp án đúng cho câu hỏi.</value>
+
+  <data name="CheckTheRadioButtonForCorrectAnswer" xml:space="preserve">
+    <value>Chọn nút radio để đặt câu trả lời đúng cho câu hỏi.</value>
 </data>
 <data name="Class" xml:space="preserve">
-    <value>Lớp</value>
+    <value>Lớp học</value>
 </data>
 <data name="ClassManagement" xml:space="preserve">
-    <value>Quản Lý Lớp</value>
+    <value>Quản lý lớp học</value>
 </data>
 <data name="ClickHereToLogin" xml:space="preserve">
-    <value>Nhấn vào đây để Đăng nhập</value>
+    <value>Nhấn vào đây để đăng nhập</value>
 </data>
 <data name="Clicktoseeerrordetail" xml:space="preserve">
-    <value>Nhấn để xem chi tiết lỗi.</value>
+    <value>Nhấp để xem chi tiết lỗi.</value>
 </data>
 <data name="Close" xml:space="preserve">
     <value>Đóng</value>
@@ -247,124 +260,121 @@
     <value>Số lượng cột không khớp.</value>
 </data>
 <data name="ConfigurationError" xml:space="preserve">
-    <value>Lỗi Cấu Hình</value>
+    <value>Lỗi cấu hình</value>
 </data>
 <data name="ConfirmEmail" xml:space="preserve">
-    <value>Xác Nhận Email</value>
+    <value>Xác nhận email</value>
 </data>
 <data name="ConfirmNewPassword" xml:space="preserve">
-    <value>Xác Nhận Mật Khẩu Mới</value>
+    <value>Xác nhận mật khẩu mới</value>
 </data>
 <data name="ConfirmPassword" xml:space="preserve">
-    <value>Xác Nhận Mật Khẩu</value>
+    <value>Xác nhận mật khẩu</value>
 </data>
 <data name="ConfirmPasswordRequired" xml:space="preserve">
-    <value>Trường Xác Nhận Mật Khẩu là bắt buộc.</value>
+    <value>Trường xác nhận mật khẩu là bắt buộc.</value>
 </data>
 <data name="ContinueExam" xml:space="preserve">
-    <value>Tiếp Tục Kỳ Thi</value>
+    <value>Tiếp tục kỳ thi</value>
 </data>
 <data name="Country" xml:space="preserve">
-    <value>Quốc Gia</value>
+    <value>Quốc gia</value>
 </data>
 <data name="CountryNotFound" xml:space="preserve">
     <value>Không tìm thấy quốc gia.</value>
 </data>
 <data name="CountryRequired" xml:space="preserve">
-    <value>Trường Quốc Gia là bắt buộc.</value>
+    <value>Trường quốc gia là bắt buộc.</value>
 </data>
 <data name="CreatedBy" xml:space="preserve">
-    <value>Tạo Bởi</value>
+    <value>Tạo bởi</value>
 </data>
 <data name="CreatedOn" xml:space="preserve">
-    <value>Tạo Lúc</value>
+    <value>Ngày tạo</value>
 </data>
 <data name="CurrentExams" xml:space="preserve">
-    <value>Kỳ Thi Hiện Tại</value>
+    <value>Kỳ thi hiện tại</value>
 </data>
 <data name="CurrentImage" xml:space="preserve">
-    <value>Hình Ảnh Hiện Tại</value>
+    <value>Hình ảnh hiện tại</value>
 </data>
 <data name="CurrentPassword" xml:space="preserve">
-    <value>Mật Khẩu Hiện Tại</value>
+    <value>Mật khẩu hiện tại</value>
 </data>
 <data name="CurrentProfilePicture" xml:space="preserve">
-    <value>Hình Đại Diện Hiện Tại:</value>
+    <value>Hình ảnh hồ sơ hiện tại:</value>
 </data>
 <data name="Dashboard" xml:space="preserve">
-    <value>Bảng Điều Khiển</value>
+    <value>Bảng điều khiển</value>
 </data>
 <data name="DashboardRolePermissionDescription" xml:space="preserve">
-    <value>Theo mặc định, quản trị hệ thống có thể xem bảng điều khiển liên quan đến dữ liệu của tất cả người dùng, trong khi người dùng bình thường chỉ có thể xem bảng điều khiển liên quan đến dữ liệu của họ.</value>
+    <value>Mặc định, quản trị viên hệ thống có thể xem bảng điều khiển liên quan đến dữ liệu của tất cả người dùng, trong khi người dùng thông thường chỉ có thể xem bảng điều khiển liên quan đến dữ liệu của riêng họ.</value>
 </data>
 <data name="DateOfBirth" xml:space="preserve">
-    <value>Ngày Sinh</value>
+    <value>Ngày sinh</value>
 </data>
 <data name="Delete" xml:space="preserve">
     <value>Xóa</value>
 </data>
 <data name="DemoAccountCannotBeDeleted" xml:space="preserve">
-    <value>Xin lỗi, tài khoản thử nghiệm không thể bị xóa.</value>
+    <value>Xin lỗi, tài khoản demo không thể bị xóa.</value>
 </data>
 <data name="Description" xml:space="preserve">
-    <value>Mô Tả</value>
+    <value>Mô tả</value>
 </data>
 <data name="DisabledQuestionOrderTooltip" xml:space="preserve">
-    <value>Nút này bị vô hiệu hóa vì kỳ thi đã được thiết lập để sắp xếp ngẫu nhiên thứ tự câu hỏi.</value>
+    <value>Điều này bị vô hiệu hóa vì kỳ thi đã được đặt để ngẫu nhiên thứ tự câu hỏi.</value>
 </data>
 <data name="DisplayOrder" xml:space="preserve">
-    <value>Thứ Tự Hiển Thị</value>
+    <value>Thứ tự hiển thị</value>
 </data>
 <data name="DragAndDropToArrangeTheQuestionOrder" xml:space="preserve">
     <value>Kéo và thả để sắp xếp thứ tự câu hỏi.</value>
 </data>
 <data name="DurationInMinute" xml:space="preserve">
-    <value>Thời Lượng (phút)</value>
+    <value>Thời gian (phút)</value>
 </data>
-<data name="Edit" xml:space="preserve">
-    <value>Chỉnh Sửa</value>
+  <data name="Edit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
 </data>
 <data name="EditAttachments" xml:space="preserve">
-    <value>Chỉnh Sửa Đính Kèm:</value>
+    <value>Chỉnh sửa tập tin đính kèm:</value>
 </data>
 <data name="EditExamDesciption" xml:space="preserve">
-    <value>Lời Nhắc: Vui lòng kiểm tra kỹ thông tin kỳ thi trước ngày và giờ bắt đầu của kỳ thi để tránh lỗi trong quá trình sinh viên đang thi.</value>
+    <value>Nhắc nhở: Vui lòng kiểm tra kỹ tất cả chi tiết của kỳ thi trước ngày và giờ bắt đầu để tránh lỗi khi học sinh làm bài thi.</value>
 </data>
 <data name="EditMyProfile" xml:space="preserve">
-    <value>Chỉnh Sửa Hồ Sơ Của Tôi</value>
+    <value>Chỉnh sửa hồ sơ của tôi</value>
 </data>
-  <data name="MyProfile" xml:space="preserve">
-    <value>Hồ sơ của tôi</value>
-  </data>
 <data name="EditQuestionDescription" xml:space="preserve">
-    <value>Vui lòng đảm bảo rằng tất cả câu hỏi và câu trả lời đều chính xác trước khi kỳ thi bắt đầu, vì không thể thêm hoặc xóa câu hỏi khi sinh viên đang thi.</value>
+    <value>Hãy đảm bảo rằng tất cả các câu hỏi và câu trả lời đều chính xác trước khi kỳ thi bắt đầu, vì không thể thêm hoặc xóa câu hỏi khi học sinh đang làm bài thi.</value>
 </data>
 <data name="EditQuestionDescription2" xml:space="preserve">
-    <value>Tuy nhiên, nếu câu trả lời của bạn cho một câu hỏi là không chính xác, bạn vẫn có thể sửa sau khi kỳ thi kết thúc. Hệ thống sẽ tự động tính điểm lại cho sinh viên.</value>
+    <value>Tuy nhiên, nếu câu trả lời của bạn cho một câu hỏi là không chính xác, bạn vẫn có thể chỉnh sửa nó sau khi kỳ thi kết thúc. Hệ thống sẽ tự động chấm điểm lại cho học sinh.</value>
 </data>
 <data name="EditUser" xml:space="preserve">
-    <value>Chỉnh Sửa Người Dùng</value>
+    <value>Chỉnh sửa người dùng</value>
 </data>
 <data name="EditUserAttachment" xml:space="preserve">
-    <value>Chỉnh Sửa Đính Kèm Của Người Dùng</value>
+    <value>Chỉnh sửa tập tin đính kèm người dùng</value>
 </data>
 <data name="EmailAddress" xml:space="preserve">
-    <value>Địa Chỉ Email</value>
+    <value>Địa chỉ email</value>
 </data>
 <data name="EmailAddressTaken" xml:space="preserve">
-    <value>Địa Chỉ Email đã tồn tại. Vui lòng thử lại với Địa Chỉ Email khác.</value>
+    <value>Địa chỉ email đã được sử dụng. Vui lòng thử lại với địa chỉ email khác.</value>
 </data>
 <data name="EmptyAnswerWillBeIgnored" xml:space="preserve">
-    <value>Lựa chọn câu trả lời trống sẽ bị bỏ qua.</value>
+    <value>Tùy chọn câu trả lời trống sẽ bị bỏ qua.</value>
 </data>
 <data name="EndDateTime" xml:space="preserve">
-    <value>Ngày &amp; Giờ Kết Thúc</value>
+    <value>Ngày &amp; Giờ kết thúc</value>
 </data>
 <data name="EndDateTime1" xml:space="preserve">
-    <value>Ngày&amp; Giờ Kết Thúc</value>
+    <value>Ngày &amp; Giờ kết thúc</value>
 </data>
 <data name="EndDateTimeMustBeGreater" xml:space="preserve">
-    <value>Ngày &amp; Giờ Kết Thúc phải lớn hơn ngày &amp; giờ bắt đầu.</value>
+    <value>Ngày &amp; Giờ kết thúc phải lớn hơn ngày &amp; giờ bắt đầu.</value>
 </data>
 <data name="EnterTheDetails" xml:space="preserve">
     <value>Nhập chi tiết</value>
@@ -373,268 +383,264 @@
     <value>Lỗi</value>
 </data>
 <data name="Exam" xml:space="preserve">
-    <value>Kỳ Thi</value>
+    <value>Kỳ thi</value>
 </data>
 <data name="ExamCompleted" xml:space="preserve">
-    <value>Kỳ Thi Đã Hoàn Thành</value>
+    <value>Kỳ thi đã hoàn thành</value>
 </data>
 <data name="ExamCompletedTooltip" xml:space="preserve">
     <value>Tổng số kỳ thi đã vượt qua ngày kết thúc.</value>
 </data>
 <data name="ExamDurationInfo" xml:space="preserve">
-    <value>Thời lượng (trong phút) được cho cho sinh viên hoàn thành kỳ thi. Khi sinh viên nhấn nút "Bắt Đầu Kỳ Thi", thời gian bắt đầu đếm ngược từ giá trị thời lượng này.</value>
-</data>
-<data name="ExamEndDateTimeInfo" xml:space="preserve">
-    <value>Đây là ngày giờ hết hạn để sinh viên bắt đầu kỳ thi. Sau thời gian này, sinh viên sẽ không thể tham gia kỳ thi nữa.</value>
-</data>
-<data name="ExamEndedDescription" xml:space="preserve">
-    <value>Có khả năng rất cao rằng kỳ thi này đã bị hủy bỏ bởi một giáo viên hoặc quản trị viên. Bạn không thể tiếp tục kỳ thi nữa.</value>
+    <value>Thời gian (tính bằng phút) cho học sinh hoàn thành kỳ <data name="PublishExamTooltip" xml:space="preserve">
+    <value>Sau khi xuất bản kỳ thi, học sinh của bạn sẽ thấy kỳ thi này xuất hiện như kỳ thi sắp tới của họ. Họ có thể bắt đầu kỳ thi một khi Ngày &amp; Giờ bắt đầu của kỳ thi đã đến.</value>
+</data>y, họ    <value>Sau khi xuất bản kỳ thi, học sinh của bạn sẽ thấy kỳ thi này xuất hiện như kỳ thi sắp tới của họ. Họ có thể bắt đầu kỳ thi một khi Ngày &amp; Giờ bắt đầu của kỳ thi đã đến.</value>n không thể tiếp tục kỳ thi nữa.</value>
 </data>
 <data name="ExamEndedTitle" xml:space="preserve">
     <value>Xin lỗi, kỳ thi đã kết thúc.</value>
 </data>
 <data name="ExamFailed" xml:space="preserve">
-    <value>Kỳ Thi Không Đạt</value>
+    <value>Kỳ thi thất bại</value>
 </data>
 <data name="ExamFailedTooltip" xml:space="preserve">
-    <value>Tổng số kỳ thi bạn không đạt. Đừng bỏ cuộc, đó chỉ là một cơ hội học tập, bạn có thể làm được.</value>
+    <value>Tổng số kỳ thi mà bạn đã thất bại. Đừng bỏ cuộc, đây chỉ là cơ hội học hỏi, bạn có thể làm được.</value>
 </data>
 <data name="ExamInProgress" xml:space="preserve">
-    <value>Kỳ Thi Đang Diễn Ra</value>
+    <value>Kỳ thi đang diễn ra</value>
 </data>
 <data name="ExamInProgressTooltip" xml:space="preserve">
-    <value>Tổng số kỳ thi đang có sẵn cho sinh viên bắt đầu kỳ thi.</value>
+    <value>Tổng số kỳ thi hiện vẫn còn sẵn cho học sinh để bắt đầu kỳ thi.</value>
 </data>
 <data name="ExamManagement" xml:space="preserve">
-    <value>Quản Lý Kỳ Thi</value>
+    <value>Quản lý kỳ thi</value>
 </data>
 <data name="ExamName" xml:space="preserve">
-    <value>Tên Kỳ Thi</value>
+    <value>Tên kỳ thi</value>
 </data>
 <data name="Examnotfound" xml:space="preserve">
-    <value>Không Tìm Thấy Kỳ Thi</value>
+    <value>Không tìm thấy kỳ thi</value>
 </data>
 <data name="ExamPassed" xml:space="preserve">
-    <value>Kỳ Thi Đã Đạt</value>
+    <value>Kỳ thi đã qua</value>
 </data>
 <data name="ExamPassedTooltip" xml:space="preserve">
-    <value>Tổng số kỳ thi bạn đã đạt. Chúc mừng! Tiếp tục phấn đấu nhé.</value>
+    <value>Tổng số kỳ thi mà bạn đã vượt qua. Chúc mừng! Tiếp tục cố gắng nhé.</value>
 </data>
 <data name="ExamResult" xml:space="preserve">
-    <value>Kết Quả Kỳ Thi</value>
+    <value>Kết quả kỳ thi</value>
 </data>
 <data name="ExamStartDateTimeInfo" xml:space="preserve">
-    <value>Sinh viên có thể bắt đầu làm bài thi từ ngày &amp; giờ này.</value>
+    <value>Học sinh có thể ngồi thi bắt đầu từ ngày &amp; giờ này.</value>
 </data>
 <data name="Exit" xml:space="preserve">
     <value>Thoát</value>
 </data>
 <data name="ExporttoExcel" xml:space="preserve">
-    <value>Xuất Ra Excel</value>
+    <value>Xuất sang Excel</value>
 </data>
 <data name="ExportToExcelNote" xml:space="preserve">
-    <value>Bạn có thể kiểm soát những gì bạn muốn xuất ra Excel trước khi nhấp vào đây. Ví dụ, nếu bạn muốn xuất tất cả các bản ghi, hãy nhấp vào "Hiển Thị Tất Cả" ở nút thả xuống bên dưới trước khi nhấp vào "Xuất Ra Excel."</value>
+    <value>Bạn có thể kiểm soát những gì bạn muốn xuất sang Excel trước khi nhấp vào đây. Ví dụ: nếu bạn muốn xuất tất cả các bản ghi, nhấp vào "Hiển thị tất cả" ở nút thả xuống bên dưới trước khi nhấp vào "Xuất sang Excel".</value>
 </data>
 <data name="ExporttoPdf" xml:space="preserve">
-    <value>Xuất Ra PDF</value>
+    <value>Xuất sang Pdf</value>
 </data>
 <data name="ExportToPDFNote" xml:space="preserve">
-    <value>Bạn có thể kiểm soát những gì bạn muốn xuất ra PDF trước khi nhấp vào đây. Ví dụ, nếu bạn muốn xuất tất cả các bản ghi, hãy nhấp vào "Hiển Thị Tất Cả" ở nút thả xuống bên dưới trước khi nhấp vào "Xuất Ra PDF."</value>
+    <value>Bạn có thể kiểm soát những gì bạn muốn xuất sang PDF trước khi nhấp vào đây. Ví dụ: nếu bạn muốn xuất tất cả các bản ghi, nhấp vào "Hiển thị tất cả" ở nút thả xuống bên dưới trước khi nhấp vào "Xuất sang PDF".</value>
 </data>
 <data name="Failed" xml:space="preserve">
-    <value>Không Đạt</value>
+    <value>Thất bại</value>
 </data>
 <data name="FailedExceptionError" xml:space="preserve">
-    <value>Không Đạt Do Lỗi Ngoại Lệ.</value>
+    <value>Thất bại do lỗi ngoại lệ.</value>
 </data>
 <data name="FailedOnlyJpgJpegPngCanBeSetAsProfilePicture" xml:space="preserve">
-    <value>Không Đạt. Chỉ có tệp jpg, jpeg và png mới có thể được đặt làm Hình Đại Diện.</value>
+    <value>Thất bại. Chỉ tệp jpg, jpeg và png mới có thể được đặt làm Hình đại diện.</value>
 </data>
 <data name="FailedToResetPassword" xml:space="preserve">
-    <value>Không Thể Đặt Lại Mật Khẩu.</value>
+    <value>Không thể đặt lại mật khẩu.</value>
 </data>
 <data name="FieldIsRequired" xml:space="preserve">
-    <value>Trường này là bắt buộc.</value>
+    <value>Trường là bắt buộc.</value>
 </data>
 <data name="File" xml:space="preserve">
     <value>Tệp</value>
 </data>
 <data name="FileName" xml:space="preserve">
-    <value>Tên Tệp</value>
+    <value>Tên tệp</value>
 </data>
 <data name="FileURL" xml:space="preserve">
-    <value>URL Tệp</value>
+    <value>URL tệp</value>
 </data>
 <data name="Fillinansweroption" xml:space="preserve">
-    <value>Điền vào lựa chọn câu trả lời</value>
+    <value>Điền vào tùy chọn câu trả lời</value>
 </data>
 <data name="FillInEmailAddressWeWillSendYouResetPasswordLink" xml:space="preserve">
-    <value>Nhập địa chỉ email của bạn, chúng tôi sẽ gửi cho bạn một liên kết để đặt lại mật khẩu.</value>
+    <value>Điền vào địa chỉ email của bạn, và chúng tôi sẽ gửi cho bạn một liên kết để đặt lại mật khẩu.</value>
 </data>
 <data name="FillInYourUsernameAndPasswordToSignIn" xml:space="preserve">
-    <value>Nhập tên người dùng và mật khẩu của bạn để đăng nhập.</value>
+    <value>Điền tên người dùng và mật khẩu của bạn để đăng nhập.</value>
 </data>
 <data name="FillYourDetailsToRegister" xml:space="preserve">
-    <value>Nhập thông tin của bạn để đăng ký.</value>
+    <value>Điền thông tin của bạn để đăng ký.</value>
 </data>
 <data name="Filter" xml:space="preserve">
-    <value>Bộ Lọc</value>
+    <value>Bộ lọc</value>
 </data>
 <data name="FirstName" xml:space="preserve">
-    <value>Tên Đầu</value>
+    <value>Tên</value>
 </data>
 <data name="Forgot" xml:space="preserve">
     <value>Quên</value>
 </data>
 <data name="ForgotPassword" xml:space="preserve">
-    <value>Quên Mật Khẩu</value>
+    <value>Quên mật khẩu</value>
 </data>
 <data name="ForgotYourPassword" xml:space="preserve">
-    <value>Bạn quên mật khẩu?</value>
+    <value>Quên mật khẩu của bạn?</value>
 </data>
 <data name="FullAddress" xml:space="preserve">
-    <value>Địa Chỉ Đầy Đủ</value>
+    <value>Địa chỉ đầy đủ</value>
 </data>
 <data name="FullName" xml:space="preserve">
-    <value>Họ Và Tên</value>
+    <value>Họ và tên</value>
 </data>
 <data name="Gender" xml:space="preserve">
-    <value>Giới Tính</value>
+    <value>Giới tính</value>
 </data>
 <data name="GeneralSettings" xml:space="preserve">
-    <value>Cài Đặt Chung</value>
+    <value>Cài đặt chung</value>
 </data>
 <data name="HomeIndexTabTitle" xml:space="preserve">
-    <value>NetStarter- ASP.NET MVC C# Mẫu Khởi Động Ứng Dụng Web</value>
+    <value>NetStarter- Mẫu khởi động ứng dụng Web ASP.NET MVC C#</value>
 </data>
 <data name="IDCardNumber" xml:space="preserve">
-    <value>Số Chứng Minh Thư</value>
+    <value>Số CMND</value>
 </data>
 <data name="ImportFromExcel" xml:space="preserve">
-    <value>Nhập Từ Excel</value>
+    <value>Nhập từ Excel</value>
 </data>
 <data name="ImportFromExcelDescription" xml:space="preserve">
-    <value>Vui lòng tải xuống mẫu excel dưới đây và chèn dữ liệu của bạn. Vui lòng không chỉnh sửa hoặc thêm cột phụ. Các cột phụ sẽ bị bỏ qua khi nhập dữ liệu. Sau khi hoàn thành việc chèn dữ liệu của bạn vào tệp excel, lưu và tải lên thông qua phần tải lên dưới đây.</value>
+    <value>Vui lòng tải xuống mẫu excel bên dưới và chèn dữ liệu của bạn. Vui lòng không chỉnh sửa hoặc thêm các cột phụ. Các cột phụ sẽ bị bỏ qua khi nhập dữ liệu. Sau khi hoàn thành việc chèn dữ liệu vào tệp excel, hãy lưu nó và tải lên qua phần tải lên bên dưới.</value>
 </data>
 <data name="ImportingDataFromExcelPleaseWait" xml:space="preserve">
-    <value>Đang Nhập Dữ Liệu Từ Excel... Vui Lòng Chờ...</value>
+    <value>Đang nhập dữ liệu từ Excel... Vui lòng đợi...</value>
 </data>
 <data name="ImportUserFromExcel" xml:space="preserve">
-    <value>Nhập Người Dùng Từ Excel</value>
+    <value>Nhập người dùng từ Excel</value>
 </data>
 <data name="ImportUserFromExcelDescription" xml:space="preserve">
-    <value>Vui lòng tải xuống mẫu excel dưới đây và chèn dữ liệu người dùng của bạn. Vui lòng không chỉnh sửa hoặc thêm cột phụ. Các cột phụ sẽ bị bỏ qua khi nhập dữ liệu. Sau khi hoàn thành việc chèn dữ liệu của bạn vào tệp excel, lưu và tải lên thông qua phần tải lên dưới đây.</value>
+    <value>Vui lòng tải xuống mẫu excel bên dưới và chèn dữ liệu người dùng của bạn. Vui lòng không chỉnh sửa hoặc thêm các cột phụ. Các cột phụ sẽ bị bỏ qua khi nhập dữ liệu. Sau khi hoàn thành việc chèn dữ liệu vào tệp excel, hãy lưu nó và tải lên qua phần tải lên bên dưới.</value>
 </data>
 <data name="Information" xml:space="preserve">
-    <value>Thông Tin</value>
+    <value>Thông tin</value>
 </data>
-<data name="IntakeYear" xml:space="preserve">
-    <value>Năm Nhập Học</value>
+ <data name="IntakeYear" xml:space="preserve">
+    <value>Năm nhập học</value>
 </data>
 <data name="InvalidDuration" xml:space="preserve">
-    <value>Thời Lượng Không Hợp Lệ</value>
+    <value>Thời gian không hợp lệ</value>
 </data>
 <data name="InvalidEmailAddress" xml:space="preserve">
-    <value>Địa Chỉ Email Không Hợp Lệ.</value>
+    <value>Địa chỉ email không hợp lệ.</value>
 </data>
 <data name="InvalidLoginAttempt" xml:space="preserve">
-    <value>Lần Đăng Nhập Không Hợp Lệ</value>
+    <value>Nỗ lực đăng nhập không hợp lệ</value>
 </data>
 <data name="InvalidPassword" xml:space="preserve">
-    <value>Mật Khẩu phải có ít nhất 6 ký tự, bao gồm ít nhất một chữ hoa, một chữ thường, một chữ số và một ký tự đặc biệt.</value>
+    <value>Mật khẩu phải có ít nhất 6 ký tự, bao gồm ít nhất một chữ cái viết hoa, một chữ cái viết thường, một chữ số và một ký tự đặc biệt.</value>
 </data>
 <data name="InvalidPhoneNumber" xml:space="preserve">
-    <value>Vui lòng nhập Số Điện Thoại hợp lệ.</value>
+    <value>Vui lòng nhập số điện thoại hợp lệ.</value>
 </data>
 <data name="InvalidPostalCode" xml:space="preserve">
-    <value>Vui lòng nhập Mã Bưu Chính hợp lệ.</value>
+    <value>Vui lòng nhập mã bưu điện hợp lệ.</value>
 </data>
 <data name="InvalidQuestionType" xml:space="preserve">
-    <value>Loại Câu Hỏi Không Hợp Lệ. Vui lòng chọn từ danh sách thả xuống trong excel.</value>
+    <value>Loại câu hỏi không hợp lệ. Vui lòng chọn từ danh sách thả xuống trong excel.</value>
 </data>
 <data name="InvalidSubject" xml:space="preserve">
-    <value>Môn Học Không Hợp Lệ. Vui lòng chọn từ danh sách thả xuống trong excel.</value>
+    <value>Môn học không hợp lệ. Vui lòng chọn từ danh sách thả xuống trong excel.</value>
 </data>
 <data name="InvalidTemplate" xml:space="preserve">
-    <value>Các Cột không hợp lệ. Vui lòng sử dụng mẫu được cung cấp và đảm bảo các cột không bị xóa hoặc chỉnh sửa.</value>
+    <value>Các cột không hợp lệ. Vui lòng sử dụng mẫu được cung cấp và đảm bảo rằng các cột không bị xóa hoặc chỉnh sửa.</value>
 </data>
 <data name="InvalidUsername" xml:space="preserve">
-    <value>Tên Người Dùng không hợp lệ. Tên người dùng phải có ít nhất 4 ký tự, phải bắt đầu bằng một chữ cái và không được chứa ký tự đặc biệt.</value>
+    <value>Tên người dùng không hợp lệ. Tên người dùng phải có ít nhất 4 ký tự, phải bắt đầu bằng một chữ cái và không được có ký tự đặc biệt.</value>
 </data>
 <data name="InvalidUserTemplate" xml:space="preserve">
-    <value>Các Cột không hợp lệ. Vui lòng sử dụng mẫu được cung cấp (UserExcelTemplate.xlsx) và đảm bảo các cột không bị xóa hoặc chỉnh sửa.</value>
+    <value>Các cột không hợp lệ. Vui lòng sử dụng mẫu được cung cấp (UserExcelTemplate.xlsx) và đảm bảo rằng các cột không bị xóa hoặc chỉnh sửa.</value>
 </data>
 <data name="IsCorrect" xml:space="preserve">
-    <value>Đúng Hay Không?</value>
+    <value>Câu trả lời đúng?</value>
 </data>
 <data name="LastName" xml:space="preserve">
     <value>Họ</value>
 </data>
 <data name="ListofRoles" xml:space="preserve">
-    <value>Danh Sách Vai Trò</value>
+    <value>Danh sách vai trò</value>
 </data>
 <data name="ListofUserAttachments" xml:space="preserve">
-    <value>Danh Sách Đính Kèm Người Dùng</value>
+    <value>Danh sách tệp đính kèm của người dùng</value>
 </data>
 <data name="ListofUserAttachmentTypes" xml:space="preserve">
-    <value>Danh Sách Loại Đính Kèm Người Dùng</value>
+    <value>Danh sách loại tệp đính kèm của người dùng</value>
 </data>
 <data name="ListofUsers" xml:space="preserve">
-    <value>Danh Sách Người Dùng</value>
+    <value>Danh sách người dùng</value>
 </data>
 <data name="ListofUserStatus" xml:space="preserve">
-    <value>Danh Sách Trạng Thái Người Dùng</value>
+    <value>Danh sách trạng thái người dùng</value>
 </data>
 <data name="ListOfUserWith" xml:space="preserve">
-    <value>Danh Sách Người Dùng Với</value>
+    <value>Danh sách người dùng có</value>
 </data>
 <data name="Loading" xml:space="preserve">
-    <value>Đang Tải...</value>
+    <value>Đang tải...</value>
 </data>
 <data name="Lockedout" xml:space="preserve">
-    <value>Bị Khóa</value>
+    <value>Bị khóa</value>
 </data>
 <data name="Login" xml:space="preserve">
-    <value>Đăng Nhập</value>
+    <value>Đăng nhập</value>
 </data>
 <data name="LoginDateTime" xml:space="preserve">
-    <value>Thời Gian Đăng Nhập</value>
+    <value>Ngày giờ đăng nhập</value>
 </data>
 <data name="LoginHistory" xml:space="preserve">
-    <value>Lịch Sử Đăng Nhập</value>
+    <value>Lịch sử đăng nhập</value>
 </data>
 <data name="LoginHistoryRolePermissionDescription" xml:space="preserve">
-    <value>Theo mặc định, quản trị viên hệ thống có thể xem lịch sử đăng nhập của tất cả người dùng, trong khi người dùng bình thường chỉ có thể xem lịch sử đăng nhập của chính họ.</value>
+    <value>Theo mặc định, quản trị viên hệ thống có thể xem tất cả lịch sử đăng nhập của người dùng, trong khi người dùng thông thường chỉ có thể xem lịch sử đăng nhập của riêng họ.</value>
 </data>
 <data name="ManageAttachmentsFor" xml:space="preserve">
-    <value>Quản Lý Đính Kèm Cho:</value>
+    <value>Quản lý tệp đính kèm cho:</value>
 </data>
 <data name="Management" xml:space="preserve">
-    <value>Quản Lý</value>
+    <value>Quản lý</value>
 </data>
 <data name="ManageUserAttachment" xml:space="preserve">
-    <value>Quản Lý Đính Kèm Người Dùng</value>
+    <value>Quản lý tệp đính kèm người dùng</value>
 </data>
 <data name="Mark" xml:space="preserve">
-    <value>Đánh Dấu</value>
+    <value>Đánh dấu</value>
 </data>
 <data name="MarksToPass" xml:space="preserve">
-    <value>Điểm Để Đậu</value>
+    <value>Điểm để qua</value>
 </data>
 <data name="MaxLength100" xml:space="preserve">
-    <value>Chiều Dài Tối Đa được phép là 100 ký tự.</value>
+    <value>Độ dài tối đa cho phép là 100 ký tự.</value>
 </data>
 <data name="MaxLength128" xml:space="preserve">
-    <value>Chiều Dài Tối Đa được phép là 128 ký tự.</value>
+    <value>Độ dài tối đa cho phép là 128 ký tự.</value>
 </data>
 <data name="MaxLength256" xml:space="preserve">
-    <value>Chiều Dài Tối Đa được phép là 256 ký tự.</value>
+    <value>Độ dài tối đa cho phép là 256 ký tự.</value>
 </data>
-<data name="MaxNumberAllowedIs100" xml:space="preserve">
-    <value>Số Lớn Nhất được phép là 100.</value>
+  <data name="MaxNumberAllowedIs100" xml:space="preserve">
+    <value>Số lượng tối đa cho phép là 100.</value>
 </data>
 <data name="MCQMustHaveAtLeast2AnswerOptions" xml:space="preserve">
-    <value>Câu Hỏi Trắc Nghiệm Phải Có Ít Nhất 2 Lựa Chọn.</value>
+    <value>Câu hỏi trắc nghiệm phải có ít nhất 2 tùy chọn trả lời.</value>
 </data>
 <data name="MinLength6" xml:space="preserve">
     <value>Trường này phải có ít nhất 6 ký tự.</value>
@@ -643,91 +649,91 @@
     <value>Phút</value>
 </data>
 <data name="ModifiedBy" xml:space="preserve">
-    <value>Được Sửa Đổi Bởi</value>
+    <value>Chỉnh sửa bởi</value>
 </data>
 <data name="ModifiedOn" xml:space="preserve">
-    <value>Được Sửa Đổi Lúc</value>
+    <value>Chỉnh sửa vào</value>
 </data>
 <data name="MonthlyAveragePerformance" xml:space="preserve">
-    <value>Hiệu Suất Trung Bình Hàng Tháng</value>
+    <value>Hiệu suất trung bình hàng tháng</value>
 </data>
 <data name="MostOfTheUsersAreWithThisStatus" xml:space="preserve">
-    <value>Hầu Hết Người Dùng Đều Ở Trạng Thái Này.</value>
+    <value>Hầu hết người dùng có trạng thái này.</value>
 </data>
 <data name="MyExams" xml:space="preserve">
-    <value>Các Kỳ Thi Của Tôi</value>
+    <value>Thi của tôi</value>
 </data>
 <data name="MyProfile" xml:space="preserve">
-    <value>Hồ Sơ Của Tôi</value>
+    <value>Hồ sơ của tôi</value>
 </data>
 <data name="NA" xml:space="preserve">
-    <value>Không Áp Dụng</value>
+    <value>Không áp dụng</value>
 </data>
 <data name="Name" xml:space="preserve">
     <value>Tên</value>
 </data>
 <data name="NetStarter" xml:space="preserve">
-    <value>Khởi Đầu Mạng</value>
+    <value>Người bắt đầu mạng</value>
 </data>
 <data name="NewPassword" xml:space="preserve">
-    <value>Mật Khẩu Mới</value>
+    <value>Mật khẩu mới</value>
 </data>
 <data name="NewPasswordNotMatch" xml:space="preserve">
-    <value>Mật khẩu mới và xác nhận mật khẩu mới không khớp.</value>
+    <value>Mật khẩu mới và mật khẩu xác nhận không khớp.</value>
 </data>
 <data name="Next" xml:space="preserve">
-    <value>Tiếp Theo</value>
+    <value>Tiếp theo</value>
 </data>
 <data name="NoDataAvailable" xml:space="preserve">
-    <value>Không Có Dữ Liệu</value>
+    <value>Không có dữ liệu</value>
 </data>
 <data name="NoQuestionYet" xml:space="preserve">
-    <value>Không có câu hỏi nào trong kỳ thi này. Vui lòng thêm câu hỏi trước khi tiếp tục.</value>
+    <value>Kỳ thi này chưa có câu hỏi. Vui lòng thêm câu hỏi cho kỳ thi trước khi tiếp tục.</value>
 </data>
 <data name="NormalUserSystemAdminCannotBeDeleted" xml:space="preserve">
-    <value>Không thể xóa hoặc chỉnh sửa vai trò người dùng bình thường và quản trị viên hệ thống vì chúng sẽ được sử dụng để xác định việc tải lịch sử đăng nhập (Quản trị viên có thể xem tất cả lịch sử đăng nhập của người dùng, trong khi người dùng bình thường chỉ có thể xem lịch sử của mình).</value>
+    <value>Vai trò người dùng thông thường và quản trị hệ thống không thể bị xóa hoặc chỉnh sửa vì chúng sẽ được sử dụng để xác định việc tải lịch sử đăng nhập (Quản trị viên có thể xem tất cả lịch sử đăng nhập của người dùng, nhưng người dùng thông thường chỉ có thể xem lịch sử của riêng họ).</value>
 </data>
 <data name="NotAllowToChangePasswordForDemoAccount" xml:space="preserve">
-    <value>Xin lỗi, bạn không được phép đổi mật khẩu cho tài khoản demo. Vui lòng đăng ký tài khoản khác để thử tính năng này.</value>
+    <value>Rất tiếc, bạn không được phép thay đổi mật khẩu cho tài khoản demo. Vui lòng đăng ký tài khoản khác để thử tính năng này.</value>
 </data>
 <data name="NoteColon" xml:space="preserve">
-    <value>Ghi Chú:</value>
+    <value>Lưu ý:</value>
 </data>
 <data name="NoteSystemInformation" xml:space="preserve">
-    <value>Ghi Chú: Thông tin hệ thống chỉ có thể được chỉnh sửa bởi Quản Trị Viên Hệ Thống.</value>
+    <value>Lưu ý: Thông tin hệ thống chỉ có thể được chỉnh sửa bởi Quản trị hệ thống.</value>
 </data>
 <data name="notfoundormismatch" xml:space="preserve">
-    <value>Không Tìm Thấy hoặc Không Khớp.</value>
+    <value>không tìm thấy hoặc không khớp.</value>
 </data>
 <data name="OnlyLettersAndNumbers" xml:space="preserve">
-    <value>Chỉ cho phép chữ cái và số.</value>
+    <value>Chỉ được phép sử dụng chữ cái và số.</value>
 </data>
 <data name="OnlyNumbers" xml:space="preserve">
-    <value>Chỉ cho phép số.</value>
+    <value>Chỉ được phép sử dụng số.</value>
 </data>
 <data name="Oops" xml:space="preserve">
-    <value>Rất Tiếc.</value>
+    <value>Rất tiếc.</value>
 </data>
 <data name="OopsSomethingwrong" xml:space="preserve">
     <value>Rất tiếc! Đã xảy ra lỗi.</value>
 </data>
 <data name="OtherInformation" xml:space="preserve">
-    <value>Thông Tin Khác</value>
+    <value>Thông tin khác</value>
 </data>
 <data name="outof" xml:space="preserve">
     <value>trong số</value>
 </data>
 <data name="Page0OfPage0" xml:space="preserve">
-    <value>Trang 0 của Tổng Số 0 Trang</value>
+    <value>Trang 0 của Trang 0</value>
 </data>
 <data name="Passed" xml:space="preserve">
-    <value>Đã Vượt Qua</value>
+    <value>Đã qua</value>
 </data>
 <data name="Password" xml:space="preserve">
-    <value>Mật Khẩu</value>
+    <value>Mật khẩu</value>
 </data>
 <data name="PasswordChangedSuccessfully" xml:space="preserve">
-    <value>Đổi Mật Khẩu Thành Công!</value>
+    <value>Đã thay đổi mật khẩu thành công!</value>
 </data>
 <data name="PasswordNotMatch" xml:space="preserve">
     <value>Mật khẩu và mật khẩu xác nhận không khớp.</value>
@@ -739,22 +745,22 @@
     <value>Ít nhất 6 ký tự. Yêu cầu ít nhất một chữ cái viết hoa, một chữ cái viết thường, một chữ số và một ký tự đặc biệt.</value>
 </data>
 <data name="PastExams" xml:space="preserve">
-    <value>Các Kỳ Thi Trước Đây</value>
+    <value>Kỳ thi đã qua</value>
 </data>
 <data name="PersonalInformation" xml:space="preserve">
-    <value>Thông Tin Cá Nhân</value>
+    <value>Thông tin cá nhân</value>
 </data>
 <data name="PhoneNumber" xml:space="preserve">
-    <value>Số Điện Thoại</value>
+    <value>Số điện thoại</value>
 </data>
 <data name="Pleasefillinthefollowing" xml:space="preserve">
-    <value>Vui lòng điền vào các mục sau đây.</value>
+    <value>Vui lòng điền vào các mục sau.</value>
 </data>
 <data name="PleaseInsertConnectionString" xml:space="preserve">
-    <value>Vui lòng điều chỉnh connectionString trong Web.config để chạy ứng dụng web này.</value>
+    <value>Vui lòng vào Web.config và chèn giá trị chuỗi kết nối để chạy ứng dụng web này.</value>
 </data>
 <data name="PleaseSelect" xml:space="preserve">
-    <value>Vui lòng Chọn...</value>
+    <value>Vui lòng chọn...</value>
 </data>
 <data name="PleaseSelectACorrectAnswer" xml:space="preserve">
     <value>Vui lòng chọn một câu trả lời đúng.</value>
@@ -762,113 +768,134 @@
 <data name="Pleaseselectallthefilesthatyouwanttoupload" xml:space="preserve">
     <value>Vui lòng chọn tất cả các tệp mà bạn muốn tải lên.</value>
 </data>
+<data name="Pleaseselectallthefilesthatyouwanttoupload1" xml:space="preserve">
+    <value>Vui lòng chọn tất cả các tệp mà bạn muốn tải lên.</value>
+</data>
 <data name="Pleaseselectanexcelfile" xml:space="preserve">
+    <value>Vui lòng chọn một tệp Excel.</value>
+</data>
+<data name="Pleaseselectanexcelfile1" xml:space="preserve">
     <value>Vui lòng chọn một tệp Excel.</value>
 </data>
 <data name="PleaseSelectAtLeastOneQuestion" xml:space="preserve">
     <value>Vui lòng chọn ít nhất một câu hỏi.</value>
 </data>
 <data name="PleaseSendSupportEmail" xml:space="preserve">
-    <value>Vui lòng gửi email hỗ trợ kèm theo ảnh chụp màn hình này đến vnmentor14@gmail.com. Cảm ơn bạn.</value>
+    <value>Vui lòng gửi email hỗ trợ với ảnh chụp màn hình này đến vnmentor14@gmail.com. Cảm ơn bạn.</value>
 </data>
 <data name="PleaseSubmitAnAnswer" xml:space="preserve">
-    <value>Vui lòng gửi một câu trả lời.</value>
+    <value>Vui lòng nộp một câu trả lời.</value>
 </data>
 <data name="PostalCode" xml:space="preserve">
-    <value>Mã Bưu Điện</value>
+    <value>Mã bưu điện</value>
 </data>
 <data name="Previous" xml:space="preserve">
     <value>Trước</value>
 </data>
 <data name="PrintResult" xml:space="preserve">
-    <value>In Kết Quả</value>
+    <value>In kết quả</value>
 </data>
 <data name="ProfilePicture" xml:space="preserve">
-    <value>Hình Đại Diện</value>
+    <value>Ảnh đại diện</value>
 </data>
 <data name="ProfilePictureAttachmentTypeCannotBeEditedOrDeleted" xml:space="preserve">
-    <value>Loại Đính Kèm Hình Đại Diện không thể chỉnh sửa hoặc xóa. Bởi vì nó được sử dụng để xác thực liệu một tệp tải lên bởi người dùng có thể được chọn làm hình đại diện hay không.</value>
+    <value>Loại tệp đính kèm ảnh đại diện không thể chỉnh sửa hoặc xóa. Vì nó được sử dụng để xác thực xem tệp do người dùng tải lên có thể được chọn làm ảnh đại diện hay không.</value>
 </data>
 <data name="Publish" xml:space="preserve">
-    <value>Xuất Bản</value>
+    <value>Xuất bản</value>
 </data>
 <data name="PublishedSuccessfully" xml:space="preserve">
-    <value>Xuất Bản thành công!</value>
+    <value>Đã xuất bản thành công!</value>
 </data>
 <data name="PublishExamDisabled" xml:space="preserve">
-    <value>Bạn không thể xuất bản kỳ thi này bây giờ vì nó không có câu hỏi nào, hoặc một số câu hỏi vẫn chưa lưu câu trả lời, hoặc bạn vẫn chưa phân bố điểm cho mỗi câu hỏi.</value>
+    <value>Bạn không thể xuất bản kỳ thi ngay bây giờ vì nó không có bất kỳ câu hỏi nào, hoặc, một số câu hỏi chưa lưu câu trả lời của chúng, hoặc bạn chưa phân bổ điểm cho mỗi câu hỏi.</value>
 </data>
 <data name="PublishExamTooltip" xml:space="preserve">
-    <value>Sau khi xuất bản kỳ thi, sinh viên của bạn sẽ thấy kỳ thi này xuất hiện như một kỳ thi sắp tới của họ. Họ có thể bắt đầu kỳ thi khi đã đến Ngày &amp; Giờ Bắt Đầu của kỳ thi.</value>
+    <value>Sau khi xuất bản kỳ thi, học sinh của bạn sẽ thấy kỳ thi này xuất hiện như kỳ thi sắp tới của họ. Họ có thể bắt đầu kỳ thi một khi Ngày &amp; Giờ bắt đầu của kỳ thi đã đến.</value>
 </data>
 <data name="Question" xml:space="preserve">
-    <value>Câu Hỏi</value>
+    <value>Câu hỏi</value>
 </data>
 <data name="QuestionImage" xml:space="preserve">
-    <value>Hình Ảnh Câu Hỏi</value>
+    <value>Hình ảnh câu hỏi</value>
 </data>
 <data name="QuestionInUsedCannotBeDeleted" xml:space="preserve">
-    <value>Câu hỏi này không thể bị xóa khỏi ngân hàng câu hỏi vì nó đã được sử dụng trong một kỳ thi. Nếu bạn không cần câu hỏi này trong tương lai, bạn có thể đánh dấu nó là không hoạt động thay vì xóa.</value>
+    <value>Câu hỏi này không thể xóa khỏi ngân hàng câu hỏi vì nó đã được sử dụng trong một kỳ thi. Nếu bạn không cần câu hỏi này trong tương lai, bạn có thể đánh dấu nó là không hoạt động thay thế.</value>
 </data>
 <data name="QuestionManagement" xml:space="preserve">
-    <value>Quản Lý Câu Hỏi</value>
+    <value>Quản lý câu hỏi</value>
 </data>
 <data name="QuestionTitle" xml:space="preserve">
-    <value>Tiêu Đề Câu Hỏi</value>
+    <value>Tiêu đề câu hỏi</value>
 </data>
 <data name="QuestionType" xml:space="preserve">
-    <value>Loại Câu Hỏi</value>
+    <value>Loại câu hỏi</value>
 </data>
 <data name="RandomizeQuestions" xml:space="preserve">
-    <value>Ngẫu Nhiên Câu Hỏi</value>
+    <value>Ngẫu nhiên câu hỏi</value>
 </data>
 <data name="Readytostarttheexam" xml:space="preserve">
-    <value>Sẵn Sàng Bắt Đầu Kỳ Thi?</value>
+    <value>Sẵn sàng để bắt đầu kỳ thi?</value>
 </data>
 <data name="RecalculatingDot" xml:space="preserve">
     <value>Đang tính lại...</value>
 </data>
-<data name="Record" xml:space="preserve">
-    <value>Bản ghi</value>
+  <data name="Record" xml:space="preserve">
+    <value>Ghi chép</value>
 </data>
 <data name="RecordDeletedSuccessfully" xml:space="preserve">
-    <value>Xóa bản ghi thành công!</value>
+    <value>Xóa ghi chép thành công!</value>
 </data>
 <data name="RecordSavedSuccessfully" xml:space="preserve">
-    <value>Lưu bản ghi thành công!</value>
+    <value>Lưu ghi chép thành công!</value>
 </data>
 <data name="RecordsImportedSuccessfully" xml:space="preserve">
-    <value>Nhập các bản ghi thành công!</value>
+    <value>Nhập ghi chép thành công!</value>
 </data>
 <data name="recordsuploaded" xml:space="preserve">
-    <value>Các bản ghi đã được tải lên</value>
+    <value>ghi chép đã tải lên</value>
 </data>
 <data name="Register" xml:space="preserve">
     <value>Đăng ký</value>
 </data>
+<data name="DontHaveAccount" xml:space="preserve">
+    <value>Bạn chưa có tài khoản?</value>
+</data>
+<data name="AlreadyHaveAccount" xml:space="preserve">
+    <value>Bạn đã có tài khoản?</value> <!-- vi -->
+</data>
+<data name="ThankConfirmEmail" xml:space="preserve">
+    <value>Cảm ơn bạn đã xác nhận email của mình. Vui lòng</value> <!-- vi -->
+</data>
+<data name="RememberPassword" xml:space="preserve">
+    <value>Bạn đã nhớ ra mật khẩu của mình rồi?</value> <!-- vi -->
+</data>
+<data name="RegistrationSuccessful" xml:space="preserve">
+    <value>Đăng ký thành công! Vui lòng kiểm tra email của bạn và nhấp vào liên kết để xác nhận địa chỉ email của bạn trước khi đăng nhập.</value> <!-- vi -->
+</data>
 <data name="RegisteredUserStatusCannotBeDeletedOrEdited" xml:space="preserve">
-    <value>Trạng thái người dùng đã đăng ký không thể bị xóa hoặc chỉnh sửa. Bởi vì đây là trạng thái mặc định được gán cho người dùng đã đăng ký.</value>
+    <value>Trạng thái người dùng đã đăng ký không thể bị xóa hoặc chỉnh sửa. Vì đây là trạng thái mặc định để gán cho người dùng đã đăng ký.</value>
 </data>
 <data name="RegisterSuccessLoginNow" xml:space="preserve">
-    <value>Đăng ký thành công! Vui lòng đăng nhập ngay bây giờ.</value>
+    <value>Đăng ký thành công! Vui lòng đăng nhập ngay.</value>
 </data>
 <data name="ReleaseAnswer" xml:space="preserve">
-    <value>Hiển thị Câu Trả Lời cho Sinh Viên?</value>
+    <value>Hiển thị câu trả lời cho học sinh?</value>
 </data>
 <data name="ReleaseAnswerInfo" xml:space="preserve">
-    <value>Khi một sinh viên nhấn "Thoát," liệu câu hỏi và câu trả lời có được hiển thị cho sinh viên không? Chúng tôi đề xuất chọn "Không" vào lúc này. Sau khi bạn hoàn thành việc xem xét kết quả của tất cả sinh viên, bạn có thể thay đổi thành "có" để sinh viên có thể học câu hỏi và câu trả lời.</value>
+    <value>Khi một học sinh nhấp vào "thoát," có nên hiển thị câu hỏi và câu trả lời cho học sinh không? Chúng tôi khuyên bạn nên chọn "Không" cho đến bây giờ. Sau khi bạn hoàn tất việc xem xét tất cả kết quả của học sinh, bạn có thể thay đổi thành "Có" để học sinh có thể nghiên cứu các câu hỏi và câu trả lời.</value>
 </data>
 <data name="ReleaseResult" xml:space="preserve">
-    <value>Phát Hành Kết Quả &amp; Câu Trả Lời</value>
+    <value>Công bố Kết quả &amp; Câu trả lời</value>
 </data>
 <data name="ReleaseResultTooltip" xml:space="preserve">
-    <value>Các câu trả lời cho các câu hỏi của kỳ thi vẫn chưa được phát hành cho sinh viên, vì trường "Hiển thị Câu Trả Lời cho Sinh Viên?" đang được đặt là "Không." Sau khi bạn hoàn thành việc xem xét câu trả lời đã được nộp bởi sinh viên, bạn có thể phát hành câu trả lời cho sinh viên để họ có thể học các câu trả lời của các câu hỏi trong kỳ thi.</value>
+    <value>Các câu trả lời cho các câu hỏi trong kỳ thi chưa được công bố cho học sinh, vì trường "Hiển thị câu trả lời cho học sinh?" được đặt là "Không." Khi bạn hoàn tất việc xem xét các câu trả lời đã nộp của học sinh, bạn có thể công bố câu trả lời cho học sinh để họ có thể nghiên cứu các câu trả lời của các câu hỏi trong kỳ thi.</value>
 </data>
 <data name="Rememberme" xml:space="preserve">
-    <value>Nhớ tài khoản?</value>
+    <value>Ghi nhớ tôi?</value>
 </data>
 <data name="Removeselectedfile" xml:space="preserve">
-    <value>Xóa các tệp được chọn</value>
+    <value>Xóa tệp đã chọn</value>
 </data>
 <data name="Reset" xml:space="preserve">
     <value>Đặt lại</value>
@@ -883,22 +910,22 @@
     <value>Kết quả</value>
 </data>
 <data name="ResultStatus" xml:space="preserve">
-    <value>Trạng Thái Kết Quả</value>
+    <value>Tình trạng kết quả</value>
 </data>
 <data name="ReviewQuestionAndAnswer" xml:space="preserve">
-    <value>Xem Lại Câu Hỏi &amp; Câu Trả Lời</value>
+    <value>Xem lại Câu hỏi &amp; Câu trả lời</value>
 </data>
 <data name="Role" xml:space="preserve">
-    <value>Vai Trò</value>
+    <value>Vai trò</value>
 </data>
 <data name="RolebyNumberofUsers" xml:space="preserve">
-    <value>Vai trò theo Số Lượng Người Dùng</value>
+    <value>Vai trò theo Số lượng người dùng</value>
 </data>
 <data name="RoleManagement" xml:space="preserve">
-    <value>Quản Lý Vai Trò</value>
+    <value>Quản lý vai trò</value>
 </data>
 <data name="RoleName" xml:space="preserve">
-    <value>Tên Vai Trò</value>
+    <value>Tên vai trò</value>
 </data>
 <data name="RoleNameAlreadyExist" xml:space="preserve">
     <value>Tên vai trò đã tồn tại trong hệ thống.</value>
@@ -907,10 +934,10 @@
     <value>Không tìm thấy vai trò.</value>
 </data>
 <data name="RolePermissionfor" xml:space="preserve">
-    <value>Quyền Vai Trò cho</value>
+    <value>Quyền của vai trò cho</value>
 </data>
 <data name="RoleRequired" xml:space="preserve">
-    <value>Trường Vai Trò là bắt buộc.</value>
+    <value>Trường Vai trò là bắt buộc.</value>
 </data>
 <data name="Save" xml:space="preserve">
     <value>Lưu</value>
@@ -919,10 +946,10 @@
     <value>Lưu &amp; Thoát</value>
 </data>
 <data name="SaveAndNext" xml:space="preserve">
-    <value>Lưu &amp; Tiếp Theo</value>
+    <value>Lưu &amp; Tiếp theo</value>
 </data>
 <data name="ScoreToPass" xml:space="preserve">
-    <value>Điểm Để Vượt Qua</value>
+    <value>Điểm để vượt qua</value>
 </data>
 <data name="Search" xml:space="preserve">
     <value>Tìm kiếm</value>
@@ -930,101 +957,101 @@
 <data name="SearchDot" xml:space="preserve">
     <value>Tìm kiếm...</value>
 </data>
-<data name="SelectAnImageFile" xml:space="preserve">
+  <data name="SelectAnImageFile" xml:space="preserve">
     <value>Chọn một tệp hình ảnh</value>
 </data>
 <data name="Selectmultiple" xml:space="preserve">
-    <value>Chọn nhiều...</value>
+    <value>Chọn nhiều tệp...</value>
 </data>
 <data name="ShortAnswerOptionsDescription" xml:space="preserve">
-    <value>Điền vào tất cả các câu trả lời đúng cho câu hỏi trả lời ngắn. Khi câu trả lời của một sinh viên khớp với một trong các câu trả lời sau đây, sinh viên được coi là trả lời đúng.</value>
+    <value>Điền tất cả các câu trả lời đúng cho câu hỏi trả lời ngắn. Khi câu trả lời của học sinh trùng khớp với một trong các câu trả lời sau, học sinh được coi là đã trả lời đúng.</value>
 </data>
 <data name="Show10Records" xml:space="preserve">
-    <value>Hiển thị 10 Bản Ghi</value>
+    <value>Hiển thị 10 Ghi chép</value>
 </data>
 <data name="Show25Records" xml:space="preserve">
-    <value>Hiển thị 25 Bản Ghi</value>
+    <value>Hiển thị 25 Ghi chép</value>
 </data>
 <data name="Show50Records" xml:space="preserve">
-    <value>Hiển thị 50 Bản Ghi</value>
+    <value>Hiển thị 50 Ghi chép</value>
 </data>
 <data name="ShowAll" xml:space="preserve">
-    <value>Hiển Thị Tất Cả</value>
+    <value>Hiển thị tất cả</value>
 </data>
 <data name="Showing0Entries" xml:space="preserve">
-    <value>Hiển thị từ 0 đến 0 của 0 bản ghi</value>
+    <value>Hiển thị từ 0 đến 0 của 0 mục</value>
 </data>
 <data name="SignOut" xml:space="preserve">
-    <value>Đăng Xuất</value>
+    <value>Đăng xuất</value>
 </data>
 <data name="SignUp" xml:space="preserve">
-    <value>Đăng Ký</value>
+    <value>Đăng ký</value>
 </data>
 <data name="SomeAnswerOptionsAreDuplicated" xml:space="preserve">
-    <value>Một số lựa chọn câu trả lời đã bị trùng lặp.</value>
+    <value>Một số tùy chọn câu trả lời bị trùng lặp.</value>
 </data>
 <data name="SomeRequiredFieldsAreEmpty" xml:space="preserve">
-    <value>Một số trường bắt buộc* đang trống. Vui lòng điền vào tất cả các trường bắt buộc*.</value>
+    <value>Một số trường bắt buộc* còn trống. Vui lòng điền tất cả các trường bắt buộc*.</value>
 </data>
 <data name="StartDateTime" xml:space="preserve">
-    <value>Ngày &amp; Giờ Bắt Đầu</value>
+    <value>Ngày &amp; Giờ bắt đầu</value>
 </data>
 <data name="StartDateTime1" xml:space="preserve">
-    <value>Ngày &amp; Giờ Bắt Đầu</value>
+    <value>Ngày &amp; Giờ bắt đầu</value>
 </data>
 <data name="StartExam" xml:space="preserve">
-    <value>Bắt Đầu Kỳ Thi</value>
+    <value>Bắt đầu thi</value>
 </data>
 <data name="StartNow" xml:space="preserve">
-    <value>Bắt Đầu Ngay!</value>
+    <value>Bắt đầu ngay!</value>
 </data>
 <data name="StartsIn" xml:space="preserve">
-    <value>Bắt Đầu Trong</value>
+    <value>Bắt đầu trong</value>
 </data>
 <data name="Status" xml:space="preserve">
-    <value>Trạng Thái</value>
+    <value>Tình trạng</value>
 </data>
 <data name="StatusRequired" xml:space="preserve">
-    <value>Trường Trạng Thái là bắt buộc.</value>
+    <value>Trường Tình trạng là bắt buộc.</value>
 </data>
 <data name="StudentAbsent" xml:space="preserve">
-    <value>Sinh Viên Vắng Mặt</value>
+    <value>Học sinh vắng mặt</value>
 </data>
 <data name="StudentAnswer" xml:space="preserve">
-    <value>Trả Lời Của Sinh Viên</value>
+    <value>Câu trả lời của học sinh</value>
 </data>
 <data name="StudentFailed" xml:space="preserve">
-    <value>Sinh Viên Không Đạt</value>
+    <value>Học sinh trượt</value>
 </data>
 <data name="StudentIn" xml:space="preserve">
-    <value>Sinh Viên ở</value>
+    <value>Học sinh trong</value>
 </data>
 <data name="StudentName" xml:space="preserve">
-    <value>Tên Sinh Viên</value>
+    <value>Tên học sinh</value>
 </data>
 <data name="StudentNotStarted" xml:space="preserve">
-    <value>Sinh Viên Chưa Bắt Đầu</value>
+    <value>Học sinh chưa bắt đầu</value>
 </data>
 <data name="StudentPassed" xml:space="preserve">
-    <value>Sinh Viên Đã Vượt Qua</value>
+    <value>Học sinh đã vượt qua</value>
 </data>
 <data name="Subject" xml:space="preserve">
-    <value>Môn Học</value>
+    <value>Môn học</value>
 </data>
 <data name="SubjectManagement" xml:space="preserve">
-    <value>Quản Lý Môn Học</value>
+    <value>Quản lý môn học</value>
 </data>
 <data name="Submit" xml:space="preserve">
     <value>Gửi</value>
 </data>
 <data name="Success" xml:space="preserve">
-    <value>Thành Công!</value>
+    <value>Thành công!</value>
 </data>
 <data name="SystemInformation" xml:space="preserve">
-    <value>Thông Tin Hệ Thống</value>
+    <value>Thông tin hệ thống</value>
 </data>
 <data name="TableIsStillLoading" xml:space="preserve">
-    <value>Vui lòng đợi. Bảng vẫn đang tải. Nhấn vào sau khi bảng được tải.</value>
+    <value>Vui lòng chờ. Bảng vẫn đang tải. Nhấp vào đây sau khi bảng đã được tải.</value>
 </data>
 <data name="Theerrorsareasbelow" xml:space="preserve">
     <value>Các lỗi như sau:</value>
@@ -1032,47 +1059,47 @@
 <data name="Thisaccounthasbeenlockedout" xml:space="preserve">
     <value>Tài khoản này đã bị khóa, vui lòng thử lại sau.</value>
 </data>
-<data name="Thiscannotbeundone" xml:space="preserve">
-    <value>Điều này không thể được hoàn tác! Các bản ghi liên quan khác cũng sẽ bị ảnh hưởng.</value>
+  <data name="Thiscannotbeundone" xml:space="preserve">
+    <value>Điều này không thể hoàn tác! Các bản ghi liên quan khác cũng sẽ bị ảnh hưởng.</value>
 </data>
 <data name="ThisIsADuplicatedValue" xml:space="preserve">
     <value>Giá trị này đã được sử dụng. Vui lòng cung cấp một giá trị khác.</value>
 </data>
 <data name="ThisRoleHasTheLeastNumberOfUser" xml:space="preserve">
-    <value>Quyền này có số lượng người dùng ít nhất, có thể là một vai trò có quyền cao nhất.</value>
+    <value>Vai trò này có số lượng người dùng ít nhất, có thể đây là vai trò với quyền hạn cao nhất.</value>
 </data>
 <data name="TimesUpDescription" xml:space="preserve">
-    <value>Thời gian làm bài kỳ thi đã kết thúc. Nhấp vào nút Thoát bên dưới để thoát khỏi kỳ thi và xem kết quả của bạn. BẠN PHẢI NHẤP vào nút Thoát! Nếu không, kết quả thi của bạn sẽ không được tính. Cảm ơn bạn.</value>
+    <value>Thời gian thi đã kết thúc. Nhấp vào nút thoát bên dưới để rời khỏi kỳ thi và xem kết quả của bạn. BẠN PHẢI NHẤP vào nút Thoát! Nếu không, kết quả kỳ thi của bạn sẽ không được tính toán. Cảm ơn bạn.</value>
 </data>
 <data name="TimesUpTitle" xml:space="preserve">
-    <value>Hết Giờ!</value>
+    <value>Hết Thời gian!</value>
 </data>
 <data name="TimeTaken" xml:space="preserve">
-    <value>Thời Gian Đã Sử Dụng</value>
+    <value>Thời gian đã sử dụng</value>
 </data>
 <data name="TovnMentor" xml:space="preserve">
     <value>Đến vnMentor</value>
 </data>
 <data name="TopQuestionsAnsweredWrongly" xml:space="preserve">
-    <value>Top 5 Câu Hỏi Trả Lời Sai</value>
+    <value>5 Câu hỏi bị trả lời sai nhiều nhất</value>
 </data>
 <data name="TopRole" xml:space="preserve">
-    <value>Vai Trò Cao Nhất</value>
+    <value>Vai trò hàng đầu</value>
 </data>
 <data name="TopStatus" xml:space="preserve">
-    <value>Trạng Thái Cao Nhất</value>
+    <value>Tình trạng hàng đầu</value>
 </data>
 <data name="TopStudentsByExam" xml:space="preserve">
-    <value>Top 10 Sinh Viên Theo Kỳ Thi</value>
+    <value>10 Học sinh hàng đầu theo kỳ thi</value>
 </data>
 <data name="TopUpcomingExams" xml:space="preserve">
-    <value>Top 5 Kỳ Thi Sắp Tới</value>
+    <value>5 Kỳ thi sắp tới hàng đầu</value>
 </data>
 <data name="TotalFileSizeCannotBeLargerThan50MB" xml:space="preserve">
-    <value>Tổng kích thước tệp không thể lớn hơn 50MB.</value>
+    <value>Tổng kích thước tệp không được lớn hơn 50MB.</value>
 </data>
 <data name="TotalMarks" xml:space="preserve">
-    <value>Tổng Điểm</value>
+    <value>Tổng điểm</value>
 </data>
 <data name="TotalNumberOfRolesInTheSystem" xml:space="preserve">
     <value>Tổng số vai trò trong hệ thống.</value>
@@ -1081,88 +1108,91 @@
     <value>Tổng số người dùng trong hệ thống.</value>
 </data>
 <data name="TotalQuestions" xml:space="preserve">
-    <value>Tổng Câu Hỏi</value>
+    <value>Tổng số câu hỏi</value>
+</data>
+<data name="TotalQuestions1" xml:space="preserve">
+    <value>Tổng số câu hỏi</value>
 </data>
 <data name="TotalRoles" xml:space="preserve">
-    <value>Tổng Vai Trò</value>
+    <value>Tổng số vai trò</value>
 </data>
 <data name="TotalScore" xml:space="preserve">
-    <value>Tổng Điểm</value>
+    <value>Tổng số điểm</value>
 </data>
 <data name="TotalStudent" xml:space="preserve">
-    <value>Tổng Sinh Viên</value>
+    <value>Tổng số học sinh</value>
 </data>
 <data name="TotalStudentTooltip" xml:space="preserve">
-    <value>Tổng số tài khoản sinh viên trong hệ thống.</value>
+    <value>Tổng số tài khoản học sinh trong hệ thống.</value>
 </data>
 <data name="TotalTeacher" xml:space="preserve">
-    <value>Tổng Giáo Viên</value>
+    <value>Tổng số giáo viên</value>
 </data>
 <data name="TotalTeacherTooltip" xml:space="preserve">
     <value>Tổng số giáo viên trong hệ thống.</value>
 </data>
 <data name="TotalUsers" xml:space="preserve">
-    <value>Tổng Người Dùng</value>
+    <value>Tổng số người dùng</value>
 </data>
 <data name="TypetoSearch" xml:space="preserve">
-    <value>Nhập để Tìm Kiếm...</value>
+    <value>Nhập để tìm kiếm...</value>
 </data>
 <data name="Unauthorized" xml:space="preserve">
-    <value>Không Có Quyền</value>
+    <value>Không được phép</value>
 </data>
 <data name="UnauthorizedError" xml:space="preserve">
-    <value>Lỗi Không Có Quyền</value>
+    <value>Lỗi không được phép</value>
 </data>
 <data name="Unpublish" xml:space="preserve">
-    <value>Hủy Xuất Bản</value>
+    <value>Gỡ xuất bản</value>
 </data>
 <data name="UnpublishTooltip" xml:space="preserve">
-    <value>Tất cả sinh viên sẽ bị buộc phải dừng thi nếu bạn nhấp vào điều này. Sau khi nhấp "Hủy xuất bản", tất cả sinh viên sẽ không thể tiếp tục thi cho đến khi bạn xuất bản lại.</value>
+    <value>Tất cả học sinh sẽ bị buộc phải ngừng làm bài nếu bạn nhấp vào đây. Sau khi bạn nhấp vào "gỡ xuất bản", tất cả học sinh sẽ không thể tiếp tục kỳ thi cho đến khi bạn xuất bản lại.</value>
 </data>
 <data name="UpcomingExams" xml:space="preserve">
-    <value>Kỳ Thi Sắp Tới</value>
+    <value>Kỳ thi sắp tới</value>
 </data>
 <data name="Upload" xml:space="preserve">
-    <value>Tải Lên</value>
+    <value>Tải lên</value>
 </data>
 <data name="UploadedBy" xml:space="preserve">
-    <value>Tải Lên Bởi</value>
+    <value>Người tải lên</value>
 </data>
 <data name="UploadedOn" xml:space="preserve">
-    <value>Đã Tải Lên</value>
+    <value>Ngày tải lên</value>
 </data>
-<data name="UploadExcel" xml:space="preserve">
-    <value>Tải Lên File Excel</value>
+  <data name="UploadExcel" xml:space="preserve">
+    <value>Tải lên Excel</value>
 </data>
 <data name="UploadFiles" xml:space="preserve">
-    <value>Tải Lên Tệp Tin</value>
+    <value>Tải lên Tệp</value>
 </data>
 <data name="UploadUserAttachment" xml:space="preserve">
-    <value>Tải Lên Đính Kèm Người Dùng</value>
+    <value>Tải lên Tài liệu Người dùng</value>
 </data>
 <data name="User" xml:space="preserve">
-    <value>Người Dùng</value>
+    <value>Người dùng</value>
 </data>
 <data name="UserAttachment" xml:space="preserve">
-    <value>Đính Kèm Người Dùng</value>
+    <value>Tài liệu Người dùng</value>
 </data>
 <data name="UserAttachmentType" xml:space="preserve">
-    <value>Loại Đính Kèm Người Dùng</value>
+    <value>Loại Tài liệu Người dùng</value>
 </data>
 <data name="UserAttachmentTypeNameAlreadyExist" xml:space="preserve">
-    <value>Tên loại đính kèm người dùng đã tồn tại trong hệ thống.</value>
+    <value>Tên loại tài liệu người dùng đã tồn tại trong hệ thống.</value>
 </data>
 <data name="UserbyStatusChart" xml:space="preserve">
-    <value>Biểu Đồ Người Dùng Theo Trạng Thái</value>
+    <value>Biểu đồ Người dùng theo Tình trạng</value>
 </data>
 <data name="UserInformation" xml:space="preserve">
-    <value>Thông Tin Người Dùng</value>
+    <value>Thông tin Người dùng</value>
 </data>
 <data name="UserManagement" xml:space="preserve">
-    <value>Quản Lý Người Dùng</value>
+    <value>Quản lý Người dùng</value>
 </data>
 <data name="Username" xml:space="preserve">
-    <value>Tên Người Dùng</value>
+    <value>Tên người dùng</value>
 </data>
 <data name="UsernameTaken" xml:space="preserve">
     <value>Tên người dùng đã được sử dụng. Vui lòng thử lại với tên người dùng khác.</value>
@@ -1171,60 +1201,60 @@
     <value>Người dùng không tồn tại trong hệ thống.</value>
 </data>
 <data name="UsersInTheRoleOf" xml:space="preserve">
-    <value>Người Dùng Trong Vai Trò Của</value>
+    <value>Người dùng trong Vai trò</value>
 </data>
 <data name="UserStatus" xml:space="preserve">
-    <value>Trạng Thái Người Dùng</value>
+    <value>Tình trạng Người dùng</value>
 </data>
 <data name="UserStatusNameAlreadyExist" xml:space="preserve">
-    <value>Tên trạng thái người dùng đã tồn tại trong hệ thống.</value>
+    <value>Tên tình trạng người dùng đã tồn tại trong hệ thống.</value>
 </data>
 <data name="View" xml:space="preserve">
     <value>Xem</value>
 </data>
 <data name="ViewList" xml:space="preserve">
-    <value>Xem Danh Sách</value>
+    <value>Xem Danh sách</value>
 </data>
 <data name="ViewRole" xml:space="preserve">
-    <value>Xem Vai Trò</value>
+    <value>Xem Vai trò</value>
 </data>
 <data name="Viewroles" xml:space="preserve">
-    <value>Xem vai trò</value>
+    <value>Xem các vai trò</value>
 </data>
 <data name="Viewthisrole" xml:space="preserve">
     <value>Xem vai trò này</value>
 </data>
 <data name="ViewUser" xml:space="preserve">
-    <value>Xem Người Dùng</value>
+    <value>Xem Người dùng</value>
 </data>
 <data name="Viewusers" xml:space="preserve">
     <value>Xem người dùng</value>
 </data>
 <data name="Viewuserstatus" xml:space="preserve">
-    <value>Xem trạng thái người dùng</value>
+    <value>Xem tình trạng người dùng</value>
 </data>
 <data name="YesDeleteIt" xml:space="preserve">
-    <value>Có, Xóa Nó!</value>
+    <value>Vâng, Xóa nó!</value>
 </data>
 <data name="YouDontHavePermissionToAccess" xml:space="preserve">
     <value>Bạn không có quyền truy cập vào trang này.</value>
 </data>
 <data name="YourExamResult" xml:space="preserve">
-    <value>Kết Quả Thi Của Bạn</value>
+    <value>Kết quả Kỳ thi của bạn</value>
 </data>
 <data name="YourPassword" xml:space="preserve">
-    <value>Mật Khẩu Của Bạn</value>
+    <value>Mật khẩu của bạn</value>
 </data>
 <data name="YourPasswordResetSuccessfully" xml:space="preserve">
     <value>Mật khẩu của bạn đã được đặt lại thành công!</value>
 </data>
 <data name="YourScore" xml:space="preserve">
-    <value>Điểm Của Bạn</value>
+    <value>Điểm của bạn</value>
 </data>
 <data name="YourTopBestPerformance" xml:space="preserve">
-    <value>Top 5 Kết Quả Thi Tốt Nhất Của Bạn</value>
+    <value>5 Thành tích tốt nhất của bạn</value>
 </data>
 <data name="YourTopExamsThatNeedImprovement" xml:space="preserve">
-    <value>Top 5 Kỳ Thi Cần Cải Thiện Của Bạn</value>
+    <value>5 Kỳ thi của bạn cần cải thiện nhất</value>
 </data>
 </root>

@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="VerifyEmail" xml:space="preserve">
+    <value>Sila sahkan email anda untuk meneruskan log masuk.</value> <!-- ms -->
+</data>
+  <data name="ExitThisExam" xml:space="preserve">
+    <value>¿Estás seguro de que deseas salir de este examen?</value>
+</data>
+<data name="ExitNow" xml:space="preserve">
+    <value>Sí, salir ahora</value>
+</data>
+<data name="NoCancel" xml:space="preserve">
+    <value>No, cancelar</value>
+</data>
   <data name="AcceptedAnswers" xml:space="preserve">
     <value>Jawapan Diterima</value>
   </data>
@@ -849,6 +861,21 @@
   <data name="Register" xml:space="preserve">
     <value>Daftar</value>
   </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>Tiada akaun?</value> <!-- ms -->
+</data>
+<data name="AlreadyHaveAccount" xml:space="preserve">
+    <value>Anda sudah mempunyai akaun?</value> <!-- ms -->
+</data>
+<data name="RememberPassword" xml:space="preserve">
+    <value>Adakah anda ingat kata laluan?</value> <!-- ms -->
+</data>
+<data name="ThankConfirmEmail" xml:space="preserve">
+    <value>Terima kasih kerana mengesahkan emel anda. Sila</value> <!-- ms -->
+</data>
+<data name="RegistrationSuccessful" xml:space="preserve">
+    <value>Pendaftaran berjaya! Sila semak emel anda dan klik pautan untuk mengesahkan alamat emel anda sebelum log masuk.</value> <!-- ms -->
+</data>
   <data name="RegisteredUserStatusCannotBeDeletedOrEdited" xml:space="preserve">
     <value>Status pengguna berdaftar tidak boleh dipadam atau diedit. Kerana ia adalah status lalai untuk diberikan kepada pengguna berdaftar.</value>
   </data>

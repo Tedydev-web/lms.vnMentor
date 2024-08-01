@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+      <data name="VerifyEmail" xml:space="preserve">
+    <value>Please verify your email to proceed with logging in.</value>
+  </data>
+    <data name="ExitThisExam" xml:space="preserve">
+    <value>Are you sure to exit this exam?</value>
+  </data>
+    <data name="ExitNow" xml:space="preserve">
+    <value>Yes, Exit Now</value>
+  </data>
+  <data name="NoCancel" xml:space="preserve">
+    <value>No, Cancel</value>
+  </data>
   <data name="AcceptedAnswers" xml:space="preserve">
     <value>Accepted Answers</value>
   </data>
@@ -849,6 +861,21 @@
   <data name="Register" xml:space="preserve">
     <value>Register</value>
   </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>Don't have an account?</value>
+</data>
+  <data name="AlreadyHaveAccount" xml:space="preserve">
+    <value>Do you already have an account?</value>
+</data>
+  <data name="ThankConfirmEmail" xml:space="preserve">
+    <value>Thank you for confirming your email. Please</value>
+</data>
+  <data name="RememberPassword" xml:space="preserve">
+    <value>Did you remember your password?</value>
+</data>
+<data name="RegistrationSuccessful" xml:space="preserve">
+    <value>Registration successful! Please check your email and click the link to confirm your email address before logging in.</value>
+</data>
   <data name="RegisteredUserStatusCannotBeDeletedOrEdited" xml:space="preserve">
     <value>Registered user status cannot be deleted or edited. Because it's default status to assign to the registered user.</value>
   </data>

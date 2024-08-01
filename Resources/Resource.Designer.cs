@@ -60,6 +60,33 @@ namespace vnMentor.Resources {
             }
         }
 
+                /// <summary>
+        ///   Looks up a localized string similar to Accepted Answers.
+        /// </summary>
+        public static string ExitThisExam {
+            get {
+                return ResourceManager.GetString("ExitThisExam", resourceCulture);
+            }
+        }
+
+                        /// <summary>
+        ///   Looks up a localized string similar to Accepted Answers.
+        /// </summary>
+        public static string ExitNow {
+            get {
+                return ResourceManager.GetString("ExitNow", resourceCulture);
+            }
+        }
+
+                                /// <summary>
+        ///   Looks up a localized string similar to Accepted Answers.
+        /// </summary>
+        public static string NoCancel {
+            get {
+                return ResourceManager.GetString("NoCancel", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Accepted Answers.
         /// </summary>
@@ -138,6 +165,60 @@ namespace vnMentor.Resources {
         public static string AddUser {
             get {
                 return ResourceManager.GetString("AddUser", resourceCulture);
+            }
+        }
+
+                /// <summary>
+        ///   Looks up a localized string similar to Add User.
+        /// </summary>
+        public static string VerifyEmail {
+            get {
+                return ResourceManager.GetString("VerifyEmail", resourceCulture);
+            }
+        }
+
+
+                /// <summary>
+        ///   Looks up a localized string similar to Add User.
+        /// </summary>
+        public static string DontHaveAccount {
+            get {
+                return ResourceManager.GetString("DontHaveAccount", resourceCulture);
+            }
+        }
+
+                        /// <summary>
+        ///   Looks up a localized string similar to Add User.
+        /// </summary>
+        public static string AlreadyHaveAccount {
+            get {
+                return ResourceManager.GetString("AlreadyHaveAccount", resourceCulture);
+            }
+        }
+
+                                /// <summary>
+        ///   Looks up a localized string similar to Add User.
+        /// </summary>
+        public static string ThankConfirmEmail {
+            get {
+                return ResourceManager.GetString("ThankConfirmEmail", resourceCulture);
+            }
+        }
+
+                ///   Looks up a localized string similar to Add User.
+        /// </summary>
+        public static string RememberPassword {
+            get {
+                return ResourceManager.GetString("RememberPassword", resourceCulture);
+            }
+        }
+
+                                /// <summary>
+        ///   Looks up a localized string similar to Add User.
+        /// </summary>
+        public static string RegistrationSuccessful {
+            get {
+                return ResourceManager.GetString("RegistrationSuccessful", resourceCulture);
             }
         }
 

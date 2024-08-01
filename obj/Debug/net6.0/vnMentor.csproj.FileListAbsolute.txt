@@ -99,6 +99,7 @@
 /Users/tedydev/Workhome/vnMentor/obj/Debug/net6.0/vnMentor.MvcApplicationPartsAssemblyInfo.cache
 /Users/tedydev/Workhome/vnMentor/obj/Debug/net6.0/vnMentor.RazorAssemblyInfo.cache
 /Users/tedydev/Workhome/vnMentor/obj/Debug/net6.0/vnMentor.RazorAssemblyInfo.cs
+/Users/tedydev/Workhome/vnMentor/obj/Debug/net6.0/vnMentor.sourcelink.json
 /Users/tedydev/Workhome/vnMentor/obj/Debug/net6.0/ar/vnMentor.resources.cs
 /Users/tedydev/Workhome/vnMentor/obj/Debug/net6.0/ar/vnMentor.resources.dll
 /Users/tedydev/Workhome/vnMentor/obj/Debug/net6.0/ms/vnMentor.resources.cs

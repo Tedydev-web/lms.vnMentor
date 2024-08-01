@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="VerifyEmail" xml:space="preserve">
+    <value>请验证您的电子邮件以继续登录。</value> <!-- zh -->
+</data>
+  <data name="ExitThisExam" xml:space="preserve">
+    <value>您确定要退出此考试吗？</value>
+</data>
+<data name="ExitNow" xml:space="preserve">
+    <value>是的，立即退出</value>
+</data>
+<data name="NoCancel" xml:space="preserve">
+    <value>否，取消</value>
+</data>
   <data name="AcceptedAnswers" xml:space="preserve">
     <value>接受的答案</value>
   </data>
@@ -849,6 +861,21 @@
   <data name="Register" xml:space="preserve">
     <value>注册</value>
   </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>没有账户？</value> <!-- zh -->
+</data>
+<data name="AlreadyHaveAccount" xml:space="preserve">
+    <value>您已经有账户了吗？</value> <!-- zh -->
+</data>
+<data name="ThankConfirmEmail" xml:space="preserve">
+    <value>感谢您确认电子邮件。请</value> <!-- zh -->
+</data>
+<data name="RememberPassword" xml:space="preserve">
+    <value>你记得密码吗？</value> <!-- zh -->
+</data>
+<data name="RegistrationSuccessful" xml:space="preserve">
+    <value>注册成功！请检查您的电子邮件，并点击链接以确认您的电子邮件地址，然后再登录。</value> <!-- zh -->
+</data>
   <data name="RegisteredUserStatusCannotBeDeletedOrEdited" xml:space="preserve">
     <value>已注册的用户状态不能被删除或编辑。因为它是分配给注册用户的默认状态。</value>
   </data>

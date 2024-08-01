@@ -77,7 +77,7 @@ namespace vnMentor.Controllers
                     bool emailConfirmed = db.AspNetUsers.Where(a => a.Id == userid).Select(a => a.EmailConfirmed).FirstOrDefault();
                     if (!emailConfirmed)
                     {
-                        TempData["NotifyFailed"] = "Please verify your email to proceed with logging in.";
+                        TempData["NotifyFailed"] = Resource.VerifyEmail;
                         return RedirectToAction("login");
                     }
                 }
@@ -290,10 +290,15 @@ namespace vnMentor.Controllers
         [AllowAnonymous]
         public IActionResult Register()
         {
-            RegisterViewModel model = new RegisterViewModel();
-            string id = db.AspNetUsers.Select(a => a.Id).FirstOrDefault();
-            model.NoUserYet = string.IsNullOrEmpty(id) ? true : false;
-            model.RoleNameSelectList = db.AspNetRoles.Select(a => new SelectListItem { Text = a.Name, Value = a.Name, Selected = (model.NoUserYet && a.Name.Contains("Admin")) ? true : false }).ToList();
+            var model = new RegisterViewModel
+            {
+                RoleName = "Student",
+                RoleNameSelectList = new List<SelectListItem>
+        {
+            new SelectListItem { Value = "Student", Text = "Student", Selected = true }
+        }
+            };
+
             return View(model);
         }
 
@@ -355,7 +360,7 @@ namespace vnMentor.Controllers
                             util.SendEmail(user.Email, emailTemplate.Subject, emailTemplate.Body);
 
                             ModelState.Clear();
-                            TempData["NotifySuccess"] = "Registration successful! Please check your email and click the link to confirm your email address before logging in.";
+                            TempData["NotifySuccess"] = @Resource.RegistrationSuccessful;
                             return RedirectToAction("login", "account");
                         }
 
