@@ -56,3 +56,6 @@ nunit-*.xml
 **/.cursor
 .DS_Store
 .DS_Store
+
+obj
+bin
