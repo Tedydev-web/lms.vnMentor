@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vnMentor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+550e4b330991826b0f5ab79be8f72919c1f5ee48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8a87eef6ef914d27b45ae9c19e0c16f819aff86")]
 [assembly: System.Reflection.AssemblyProductAttribute("vnMentor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vnMentor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
