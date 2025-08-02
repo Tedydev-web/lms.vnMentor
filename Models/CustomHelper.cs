@@ -26,7 +26,7 @@ namespace vnMentor.CustomHelper
 
             var buildSelect = new TagBuilder("div");
             buildSelect.AddCssClass("select");
-
+          
             var buildSelectTrigger = new TagBuilder("div");
             buildSelectTrigger.AddCssClass("select__trigger");
 

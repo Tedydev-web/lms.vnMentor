@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ppu4MRjvp9o=",
+  "dgSpecHash": "KxfjKVqIk9I=",
   "success": true,
-  "projectFilePath": "/Users/tedydev/Workhome/vnMentor/vnMentor.csproj",
+  "projectFilePath": "/Users/tedydev/Workspace/Codespaces/GitHub/dotnet/lms.vnMentor/vnMentor.csproj",
   "expectedPackageFiles": [
     "/Users/tedydev/.nuget/packages/antlr4/4.6.6/antlr4.4.6.6.nupkg.sha512",
     "/Users/tedydev/.nuget/packages/antlr4.codegenerator/4.6.6/antlr4.codegenerator.4.6.6.nupkg.sha512",
@@ -144,7 +144,10 @@
     "/Users/tedydev/.nuget/packages/system.xml.readerwriter/4.0.11/system.xml.readerwriter.4.0.11.nupkg.sha512",
     "/Users/tedydev/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512",
     "/Users/tedydev/.nuget/packages/system.xml.xpath/4.0.1/system.xml.xpath.4.0.1.nupkg.sha512",
-    "/Users/tedydev/.nuget/packages/system.xml.xpath.xdocument/4.0.1/system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
+    "/Users/tedydev/.nuget/packages/system.xml.xpath.xdocument/4.0.1/system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
+    "/Users/tedydev/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/tedydev/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/tedydev/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.36/microsoft.netcore.app.host.osx-arm64.6.0.36.nupkg.sha512"
   ],
   "logs": [
     {

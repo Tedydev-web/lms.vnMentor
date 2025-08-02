@@ -185,7 +185,7 @@ namespace vnMentor.Utils
             return (WorksheetPart)workbookPart.GetPartById(relId);
         }
 
-        // Given text and a SharedStringTablePart, creates a SharedStringItem with the specified text
+        // Given text and a SharedStringTablePart, creates a SharedStringItem with the specified text 
         // and inserts it into the SharedStringTablePart. If the item already exists, returns its index.
         public int InsertSharedStringItem(string text, SharedStringTablePart shareStringPart)
         {
@@ -215,8 +215,8 @@ namespace vnMentor.Utils
             return i;
         }
 
-        // Given a column name, a row index, and a WorksheetPart, inserts a cell into the worksheet.
-        // If the cell already exists, returns it.
+        // Given a column name, a row index, and a WorksheetPart, inserts a cell into the worksheet. 
+        // If the cell already exists, returns it. 
         public Cell InsertCellInWorksheet(string columnName, uint rowIndex, WorksheetPart worksheetPart)
         {
             Worksheet worksheet = worksheetPart.Worksheet;
@@ -235,7 +235,7 @@ namespace vnMentor.Utils
                 sheetData.Append(row);
             }
 
-            // If there is not a cell with the specified column name, insert one.
+            // If there is not a cell with the specified column name, insert one.  
             if (row.Elements<Cell>().Where(c => c.CellReference.Value == columnName + rowIndex).Count() > 0)
             {
                 return row.Elements<Cell>().Where(c => c.CellReference.Value == cellReference).First();

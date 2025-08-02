@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vnMentor")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute(" ")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0edec8a0d58fbab0e960e5a18eb598a804e200b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+550e4b330991826b0f5ab79be8f72919c1f5ee48")]
 [assembly: System.Reflection.AssemblyProductAttribute("vnMentor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vnMentor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

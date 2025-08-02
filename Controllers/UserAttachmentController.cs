@@ -149,7 +149,7 @@ namespace vnMentor.Controllers
 
                     foreach (IFormFile file in Files)
                     {
-                        //Checking file is available to save.
+                        //Checking file is available to save.  
                         if (file != null)
                         {
                             util.SaveUserAttachment(file, model.UserProfileId, null, User.FindFirst(ClaimTypes.NameIdentifier).Value);

@@ -62,7 +62,7 @@ namespace vnMentor.Controllers
                 // if username input contains @ sign, means that user use email to login
                 if (model.UserName.Contains("@"))
                 {
-                    // select the UserName of the user from AspNetUsers table and assign to model.UserName because instead of email, SignInManager use username to sign in
+                    // select the UserName of the user from AspNetUsers table and assign to model.UserName because instead of email, SignInManager use username to sign in 
                     string userName = db.AspNetUsers.Where(a => a.Email == model.UserName).Select(a => a.UserName).FirstOrDefault();
                     model.UserName = userName ?? "";
                     userid = db.AspNetUsers.Where(a => a.Email == model.UserName).Select(a => a.Id).FirstOrDefault();
@@ -70,16 +70,6 @@ namespace vnMentor.Controllers
                 else
                 {
                     userid = db.AspNetUsers.Where(a => a.UserName == model.UserName).Select(a => a.Id).FirstOrDefault();
-                }
-
-                if (util.GetAppSettingsValue("confirmEmailToLogin") == "true")
-                {
-                    bool emailConfirmed = db.AspNetUsers.Where(a => a.Id == userid).Select(a => a.EmailConfirmed).FirstOrDefault();
-                    if (!emailConfirmed)
-                    {
-                        TempData["NotifyFailed"] = Resource.VerifyEmail;
-                        return RedirectToAction("login");
-                    }
                 }
 
                 var result = await _signInManager.PasswordSignInAsync(model.UserName, model.Password, model.RememberMe, lockoutOnFailure: false);
@@ -290,15 +280,10 @@ namespace vnMentor.Controllers
         [AllowAnonymous]
         public IActionResult Register()
         {
-            var model = new RegisterViewModel
-            {
-                RoleName = "Student",
-                RoleNameSelectList = new List<SelectListItem>
-        {
-            new SelectListItem { Value = "Student", Text = "Student", Selected = true }
-        }
-            };
-
+            RegisterViewModel model = new RegisterViewModel();
+            string id = db.AspNetUsers.Select(a => a.Id).FirstOrDefault();
+            model.NoUserYet = string.IsNullOrEmpty(id) ? true : false;
+            model.RoleNameSelectList = db.AspNetRoles.Select(a => new SelectListItem { Text = a.Name, Value = a.Name, Selected = (model.NoUserYet && a.Name.Contains("Admin")) ? true : false }).ToList();
             return View(model);
         }
 
@@ -358,10 +343,6 @@ namespace vnMentor.Controllers
                             var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Scheme);
                             EmailTemplate emailTemplate = util.EmailTemplateForConfirmEmail(user.UserName, callbackUrl);
                             util.SendEmail(user.Email, emailTemplate.Subject, emailTemplate.Body);
-
-                            ModelState.Clear();
-                            TempData["NotifySuccess"] = @Resource.RegistrationSuccessful;
-                            return RedirectToAction("login", "account");
                         }
 
                         ModelState.Clear();
@@ -422,18 +403,6 @@ namespace vnMentor.Controllers
 
         //
         // GET: /Account/ConfirmEmail
-        //[AllowAnonymous]
-        //public async Task<IActionResult> ConfirmEmail(string userId, string code)
-        //{
-        //    if (userId == null || code == null)
-        //    {
-        //        return View("Error");
-        //    }
-        //    var user = await _userManager.FindByIdAsync(User.FindFirst(ClaimTypes.NameIdentifier).Value);
-        //    var result = await _userManager.ConfirmEmailAsync(user, code);
-        //    return View(result.Succeeded ? "ConfirmEmail" : "Error");
-        //}
-
         [AllowAnonymous]
         public async Task<IActionResult> ConfirmEmail(string userId, string code)
         {
@@ -441,20 +410,10 @@ namespace vnMentor.Controllers
             {
                 return View("Error");
             }
-
-            // User is authenticated, proceed with finding the user
-            var user = await _userManager.FindByIdAsync(userId);
-            if (user == null)
-            {
-                // Handle the case where user is not found
-                return View("Error");
-            }
-
-            // Confirm the email
+            var user = await _userManager.FindByIdAsync(User.FindFirst(ClaimTypes.NameIdentifier).Value);
             var result = await _userManager.ConfirmEmailAsync(user, code);
             return View(result.Succeeded ? "ConfirmEmail" : "Error");
         }
-
 
         //
         // GET: /Account/ForgotPassword
@@ -510,16 +469,7 @@ namespace vnMentor.Controllers
         [AllowAnonymous]
         public IActionResult ResetPassword(string code)
         {
-            if (string.IsNullOrEmpty(code))
-            {
-                return View("Error");
-            }
-            else
-            {
-                ResetPasswordViewModel model = new ResetPasswordViewModel();
-                model.Code = code;
-                return View(model);
-            }
+            return code == null ? View("Error") : View();
         }
 
         //
@@ -586,7 +536,7 @@ namespace vnMentor.Controllers
             {
                 _logger.LogError(ex, $"{GetType().Name} Controller - {MethodBase.GetCurrentMethod().Name} Method");
             }
-            return RedirectToAction("login", "account");
+            return RedirectToAction("index", "home");
         }
 
         //
